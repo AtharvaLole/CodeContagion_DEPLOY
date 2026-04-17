@@ -410,55 +410,69 @@ aiRouter.post("/misinfo-sim/room-intel", requireAuth, async (req, res) => {
 
 aiRouter.post("/misinfosim/chat", requireAuth, async (req, res) => {
   try {
-    const payload = soloChatSchema.parse(req.body);
-    const consumed = await consumeSoloChatbotQuestion(payload);
+    // SOLO CHAT
+    if ("sessionId" in req.body) {
+      const payload = soloChatSchema.parse(req.body);
 
-    const pyResult = await proxyToPython<{ response: string }>(env.MISINFO_SIM_AI_URL, "/chat", {
-      scenario: consumed.inspected.content,
-      question: payload.question
-    });
+      const consumed = await consumeSoloChatbotQuestion(payload);
 
-    if (!pyResult?.response) {
-      return res.status(502).json({ message: "Misinfo chatbot service is unavailable." });
+      const pyResult = await proxyToPython<{ response: string }>(
+        env.MISINFO_SIM_AI_URL,
+        "/chat",
+        {
+          scenario: consumed.inspected.content,
+          question: payload.question
+        }
+      );
+
+      if (!pyResult?.response) {
+        return res.status(502).json({ message: "Misinfo chatbot service is unavailable." });
+      }
+
+      return res.json({
+        response: pyResult.response,
+        session: consumed.session,
+        inspected: consumed.inspected
+      });
     }
 
-    return res.json({
-      response: pyResult.response,
-      session: consumed.session,
-      inspected: consumed.inspected
-    });
-  } catch (error) {
-    const message = error instanceof Error ? error.message : "Unable to generate solo chatbot response.";
-    return res.status(400).json({ message });
-  }
-});
+    // ROOM CHAT
+    if ("roomCode" in req.body) {
+      const payload = roomChatSchema.parse(req.body);
 
-aiRouter.post("/misinfo-sim/chat", requireAuth, async (req, res) => {
-  try {
-    const payload = roomChatSchema.parse(req.body);
-    const consumed = await consumeRoomChatbotQuestion({
-      roomCode: payload.roomCode.toUpperCase(),
-      userId: req.user.id,
-      nodeId: payload.nodeId,
-      question: payload.question
-    });
+      const consumed = await consumeRoomChatbotQuestion({
+        roomCode: payload.roomCode.toUpperCase(),
+        userId: req.user.id,
+        nodeId: payload.nodeId,
+        question: payload.question
+      });
 
-    const pyResult = await proxyToPython<{ response: string }>(env.MISINFO_SIM_AI_URL, "/chat", {
-      scenario: consumed.inspected.content,
-      question: payload.question
-    });
+      const pyResult = await proxyToPython<{ response: string }>(
+        env.MISINFO_SIM_AI_URL,
+        "/chat",
+        {
+          scenario: consumed.inspected.content,
+          question: payload.question
+        }
+      );
 
-    if (!pyResult?.response) {
-      return res.status(502).json({ message: "Misinfo chatbot service is unavailable." });
+      if (!pyResult?.response) {
+        return res.status(502).json({ message: "Misinfo chatbot service is unavailable." });
+      }
+
+      return res.json({
+        response: pyResult.response,
+        room: consumed.room,
+        inspected: consumed.inspected
+      });
     }
 
-    return res.json({
-      response: pyResult.response,
-      room: consumed.room,
-      inspected: consumed.inspected
+    return res.status(400).json({
+      message: "Request must include either sessionId or roomCode."
     });
   } catch (error) {
-    const message = error instanceof Error ? error.message : "Unable to generate room chatbot response.";
+    const message =
+      error instanceof Error ? error.message : "Unable to generate chatbot response.";
     return res.status(400).json({ message });
   }
 });
