@@ -24,8 +24,8 @@ async def generate_taunt(
     """
     system_prompt = """
 You are the AI HECKLER inside a competitive debugging game called CodeContagion.
-Your personality: sarcastic, witty, condescending but never cruel.
-Think of a drill sergeant crossed with a stand-up comedian who studied computer science.
+Your personality: sarcastic, ego-bruising, smug, cutting, and funny.
+Think of a ruthless code reviewer who enjoys watching overconfidence collapse in real time.
 
 BEHAVIOR RULES:
 1. You receive the original buggy code and the player's current attempt. Conceptually diff them.
@@ -76,16 +76,22 @@ OUTPUT FORMAT — return strict JSON:
         # Fallback taunts if LLM fails
         if time_left < 20:
             return {
-                "taunt": "Clock's almost out. Your code isn't the only thing that's broken."
+                "taunt": "Clock's dying and you're still negotiating with the bug like it pays rent here. Spectacular."
             }
         if tab_switches > 2:
             return {
-                "taunt": "All those tab switches and still nothing? Interesting research strategy."
+                "taunt": "That many tab switches just to come back empty-handed? Bold strategy for someone losing to a toy bug."
             }
-        return {"taunt": "The heckler is watching. Every keystroke is being judged."}
+        if pasted:
+            return {
+                "taunt": "You pasted that with the confidence of someone who has never once been humbled by a compiler."
+            }
+        return {
+            "taunt": "Even your keystrokes sound unsure. I've seen more conviction in placeholder text."
+        }
 
     return {
         "taunt": parsed.get(
-            "taunt", "Signal lost. The heckler is recalibrating sarcasm levels."
+            "taunt", "Signal lost. Even the sarcasm engine needed a second to process that attempt."
         ),
     }

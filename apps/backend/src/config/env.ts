@@ -20,7 +20,7 @@ const envSchema = z.object({
   NVIDIA_MODEL_ID: z.string().default("meta/llama-3.1-8b-instruct"),
   PISTON_API_URL: z.string().default("https://emkc.org/api/v2/piston"),
   DEBUG_ARENA_AI_URL: z.string().default("http://localhost:5001/debug-arena"),
-  MISINFO_SIM_AI_URL: z.string().default("http://localhost:5001/misinfosim")
+  MISINFO_SIM_AI_URL: z.string().default("https://cc-deploy-1-vtbv.onrender.com/misinfosim")
 });
 
 const parsedEnv = envSchema.parse(process.env);
