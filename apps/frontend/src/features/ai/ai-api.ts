@@ -175,7 +175,7 @@ export function fetchSoloMisinfoChat(
     response: string;
     session: import("@/features/misinfo-sim/misinfo-sim-api").MisinfoSession;
     inspected: import("@/features/misinfo-sim/misinfo-sim-api").InspectedNode;
-  }>("/api/v1/ai/misinfo-sim/solo-chat", token, {
+  }>("/api/v1/ai/misinfo-sim/chat", token, {
     method: "POST",
     body: JSON.stringify(payload)
   });
@@ -189,7 +189,7 @@ export function fetchRoomMisinfoChat(
     response: string;
     room: import("@/features/misinfo-sim/misinfo-multiplayer-api").MultiplayerRoom;
     inspected: import("@/features/misinfo-sim/misinfo-sim-api").InspectedNode;
-  }>("/api/v1/ai/misinfo-sim/room-chat", token, {
+  }>("/api/v1/ai/misinfo-sim/chat", token, {
     method: "POST",
     body: JSON.stringify(payload)
   });

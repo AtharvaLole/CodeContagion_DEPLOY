@@ -408,7 +408,7 @@ aiRouter.post("/misinfo-sim/room-intel", requireAuth, async (req, res) => {
   }
 });
 
-aiRouter.post("/misinfo-sim/solo-chat", requireAuth, async (req, res) => {
+aiRouter.post("/misinfo-sim/chat", requireAuth, async (req, res) => {
   try {
     const payload = soloChatSchema.parse(req.body);
     const consumed = await consumeSoloChatbotQuestion(payload);
@@ -433,7 +433,7 @@ aiRouter.post("/misinfo-sim/solo-chat", requireAuth, async (req, res) => {
   }
 });
 
-aiRouter.post("/misinfo-sim/room-chat", requireAuth, async (req, res) => {
+aiRouter.post("/misinfo-sim/chat", requireAuth, async (req, res) => {
   try {
     const payload = roomChatSchema.parse(req.body);
     const consumed = await consumeRoomChatbotQuestion({
