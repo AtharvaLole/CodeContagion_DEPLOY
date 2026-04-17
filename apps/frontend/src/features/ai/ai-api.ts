@@ -175,7 +175,7 @@ export function fetchSoloMisinfoChat(
     response: string;
     session: import("@/features/misinfo-sim/misinfo-sim-api").MisinfoSession;
     inspected: import("@/features/misinfo-sim/misinfo-sim-api").InspectedNode;
-  }>("misinfosim/chat", token, {
+  }>("/api/v1/ai/misinfosim/chat", token, {
     method: "POST",
     body: JSON.stringify(payload)
   });
@@ -189,12 +189,11 @@ export function fetchRoomMisinfoChat(
     response: string;
     room: import("@/features/misinfo-sim/misinfo-multiplayer-api").MultiplayerRoom;
     inspected: import("@/features/misinfo-sim/misinfo-sim-api").InspectedNode;
-  }>("misinfosim/chat", token, {
+  }>("/api/v1/ai/misinfosim/chat", token, {
     method: "POST",
     body: JSON.stringify(payload)
   });
 }
-
 /* ── Python-backed Debug Arena API functions ───────────────────────── */
 
 export function fetchPyDebugCoachReport(token: string, payload: { scenarioId: string; code: string }) {
