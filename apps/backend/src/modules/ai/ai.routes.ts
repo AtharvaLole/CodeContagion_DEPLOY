@@ -408,7 +408,7 @@ aiRouter.post("/misinfo-sim/room-intel", requireAuth, async (req, res) => {
   }
 });
 
-aiRouter.post("/misinfosim/chat", requireAuth, async (req, res) => {
+aiRouter.post("/misinfo/chat", requireAuth, async (req, res) => {
   try {
     // SOLO CHAT
     if ("sessionId" in req.body) {

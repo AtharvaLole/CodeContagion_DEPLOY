@@ -24,6 +24,7 @@ app.use(express.json({ limit: "1mb" }));
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/users", userRouterV2);
 app.use("/api/v1/ai", aiRouter);
+app.use("/", aiRouter);
 app.use("/api/v1/debug-arena", debugArenaRouter);
 app.use("/api/v1/debug-arena-mp", debugArenaMultiplayerRouter);
 app.use("/api/v1/echo-trace", echoTraceRouter);
