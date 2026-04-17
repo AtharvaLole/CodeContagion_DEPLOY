@@ -11,8 +11,30 @@ import {
   generateDebugCoachReport,
   generateDebugDebriefReport,
   generateMisinfoIntelReport,
-  getAiStatus
+  getAiStatus,
+  generateAiScenario,
+  judgeAiScenario
 } from "./ai.service.js";
+
+const aiScenarioGenerateSchema = z.object({
+  language: z.enum(["typescript", "python", "cpp"]),
+  difficulty: z.enum(["EASY", "MEDIUM", "HARD", "EXTREME"]),
+  errorTypes: z.array(z.string()).default([]),
+  description: z.string().max(500).optional(),
+});
+
+const aiJudgeSchema = z.object({
+  buggyCode: z.string().min(1),
+  userCode: z.string().min(1),
+  evaluationCriteria: z.string().min(1),
+  expectedFix: z.string().min(1),
+  language: z.enum(["typescript", "python", "cpp"]),
+  difficulty: z.enum(["EASY", "MEDIUM", "HARD", "EXTREME"]),
+  durationSeconds: z.number().min(0),
+  keystrokes: z.number().min(0),
+  tabSwitches: z.number().min(0),
+  pasted: z.boolean(),
+});
 
 const debugCoachSchema = z.object({
   scenarioId: z.string().min(1),
@@ -303,6 +325,40 @@ aiRouter.post("/debug-arena/py-debrief", requireAuth, async (req, res) => {
   } catch (error) {
     const message = error instanceof Error ? error.message : "Unable to generate AI debrief report.";
     return res.status(400).json({ message });
+  }
+});
+
+aiRouter.post("/debug-arena/generate", requireAuth, async (req, res) => {
+  try {
+    const parsed = aiScenarioGenerateSchema.safeParse(req.body);
+    if (!parsed.success) {
+      return res.status(400).json({ error: "Invalid request", details: parsed.error.flatten() });
+    }
+    const result = await generateAiScenario(parsed.data);
+    const { evaluationCriteria, expectedFix, ...playerVisible } = result.result;
+    return res.json({
+      scenario: playerVisible,
+      evaluationCriteria: result.result.evaluationCriteria,
+      expectedFix: result.result.expectedFix,
+      provider: result.provider,
+    });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Failed to generate scenario";
+    return res.status(500).json({ error: message });
+  }
+});
+
+aiRouter.post("/debug-arena/judge", requireAuth, async (req, res) => {
+  try {
+    const parsed = aiJudgeSchema.safeParse(req.body);
+    if (!parsed.success) {
+      return res.status(400).json({ error: "Invalid request", details: parsed.error.flatten() });
+    }
+    const result = await judgeAiScenario(parsed.data);
+    return res.json(result);
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Failed to judge submission";
+    return res.status(500).json({ error: message });
   }
 });
 

@@ -1,6 +1,7 @@
 import { env } from "../../config/env.js";
+import { v4 as uuidv4 } from "uuid";
 import { debugArenaScenarios } from "../debug-arena/debug-arena.data.js";
-import type { DebugArenaScenario } from "../debug-arena/debug-arena.types.js";
+import type { DebugArenaScenario, AiScenarioGenerateRequest, AiGeneratedScenario, AiJudgeRequest, AiJudgeResult } from "../debug-arena/debug-arena.types.js";
 import type { MisinfoContent, SoloSimulationState } from "../misinfo-sim/misinfo-sim.types.js";
 
 type AiProvider = "nvidia-nim" | "groq" | "fallback";
@@ -678,19 +679,175 @@ export async function generateMisinfoIntelReport(input: {
 
 export function getAiStatus() {
   const provider = resolveProvider();
-  const isProduction = env.NODE_ENV === "production";
-
-  if (isProduction) {
-    return {
-      available: provider !== "fallback",
-      status: provider === "fallback" ? "degraded" : "ready"
-    };
-  }
-
   return {
     provider,
     nvidiaConfigured: Boolean(env.NVIDIA_API_KEY),
     groqConfigured: Boolean(env.GROQ_API_KEY),
     model: provider === "nvidia-nim" ? getNvidiaModel() : getGroqModel()
   };
+}
+
+export async function generateAiScenario(
+  input: AiScenarioGenerateRequest
+): Promise<{ result: AiGeneratedScenario; provider: AiProvider }> {
+  const sanitizedDescription = input.description?.replace(/<[^>]*>/g, "").slice(0, 500);
+  const fallback: AiGeneratedScenario = {
+    id: uuidv4(),
+    title: `${input.difficulty} ${input.language} Debug Challenge`,
+    language: input.language,
+    difficulty: input.difficulty,
+    description: "Find and fix the bug in this code.",
+    stackTrace: `Error: Unexpected behavior\n    at main.${input.language === "python" ? "py" : input.language === "cpp" ? "cpp" : "ts"}:15:3`,
+    buggyCode: input.language === "typescript"
+      ? `function sum(arr: number[]): number {\n  let total = 0;\n  for (let i = 0; i <= arr.length; i++) {\n    total += arr[i];\n  }\n  return total;\n}\n`
+      : input.language === "python"
+      ? `def sum_list(arr):\n    total = 0\n    for i in range(len(arr) + 1):\n        total += arr[i]\n    return total\n`
+      : `#include <vector>\nint sum(std::vector<int>& arr) {\n    int total = 0;\n    for (int i = 0; i <= arr.size(); i++) {\n        total += arr[i];\n    }\n    return total;\n}\n`,
+    hint: "Check the loop boundary condition.",
+    evaluationCriteria: "The loop should use < instead of <= to avoid out-of-bounds access.",
+    expectedFix: "Change <= to < in the loop condition.",
+  };
+
+  try {
+    const errorTypesStr = input.errorTypes && input.errorTypes.length > 0 ? input.errorTypes.join(", ") : "any";
+    const systemPrompt = `You are a senior software engineer creating debugging challenges. Generate a realistic code debugging scenario.
+
+RULES:
+- The buggy code MUST be syntactically valid ${input.language} that compiles/runs but produces WRONG results
+- The bug must match difficulty "${input.difficulty}": EASY = obvious typo/off-by-one, MEDIUM = logic error, HARD = subtle algorithmic bug, EXTREME = concurrency/memory/multi-step bug
+- The stack trace must be realistic for ${input.language} and reference correct line numbers from the buggy code
+- The hint should guide without giving away the answer
+- evaluationCriteria must be specific enough for another AI to judge if a fix is correct
+- expectedFix describes what changes are needed
+
+Return valid JSON matching this exact schema:
+{
+  "title": "string - descriptive challenge title",
+  "description": "string - what the code is supposed to do and what's going wrong",
+  "stackTrace": "string - realistic error output or wrong-result trace",
+  "buggyCode": "string - complete valid ${input.language} code with intentional bug(s)",
+  "hint": "string - subtle hint",
+  "evaluationCriteria": "string - specific criteria for judging correctness",
+  "expectedFix": "string - description of the correct fix"
+}`;
+
+    const userPrompt = `Language: ${input.language}
+Difficulty: ${input.difficulty}
+Error types to include: ${errorTypesStr}
+${input.description ? `Additional context: ${sanitizedDescription}` : ""}
+
+Generate a debugging challenge now.`;
+
+    const aiResult = await callAiJson<Omit<AiGeneratedScenario, "id" | "language" | "difficulty">>({ systemPrompt, userPrompt });
+
+    if (!aiResult) {
+       return { result: fallback, provider: "fallback" };
+    }
+
+    if (!aiResult.data.buggyCode || typeof aiResult.data.buggyCode !== "string") {
+      return { result: fallback, provider: "fallback" };
+    }
+
+    const assembledScenario: AiGeneratedScenario = {
+      ...aiResult.data,
+      id: uuidv4(),
+      language: input.language,
+      difficulty: input.difficulty,
+    };
+
+    return { result: assembledScenario, provider: aiResult.provider };
+  } catch (err) {
+    return { result: fallback, provider: "fallback" };
+  }
+}
+
+export async function judgeAiScenario(
+  input: AiJudgeRequest
+): Promise<{ result: AiJudgeResult; provider: AiProvider }> {
+  const fallback: AiJudgeResult = {
+    correct: false,
+    score: 0,
+    feedback: "Unable to evaluate submission. Please try again.",
+    correctnessScore: 0,
+    speedBonus: 0,
+    disciplineBonus: 0,
+    effortBonus: 0,
+  };
+
+  try {
+    const maxTime = input.difficulty === "EASY" ? 120 : input.difficulty === "MEDIUM" ? 180 : input.difficulty === "HARD" ? 300 : 420;
+    const timeRatio = Math.max(0, 1 - input.durationSeconds / maxTime);
+    const speedBonus = Math.round(timeRatio * 15);
+
+    const disciplineBonus = Math.round(
+      (input.pasted ? 0 : 5) +
+      (input.tabSwitches <= 2 ? 5 : input.tabSwitches <= 5 ? 3 : 0) +
+      (input.keystrokes > 10 ? 5 : 0)
+    );
+    const clampedDiscipline = Math.min(disciplineBonus, 15);
+
+    const systemPrompt = `You are a code review judge evaluating a debugging challenge submission. You must determine if the user correctly fixed the bug.
+
+EVALUATION CRITERIA (from the challenge creator):
+${input.evaluationCriteria}
+
+EXPECTED FIX:
+${input.expectedFix}
+
+SCORING RULES:
+- correctnessScore: 0-60. Award 60 if the fix is correct and complete. Award 30-59 if partially correct. Award 0-29 if incorrect.
+- "correct" field: true ONLY if correctnessScore >= 45
+- effortBonus: 0-10. Award based on code quality of the fix (clean, minimal, no unnecessary changes = 10)
+- feedback: 2-3 sentences explaining what was done right/wrong
+
+Return valid JSON:
+{
+  "correctnessScore": number,
+  "correct": boolean,
+  "effortBonus": number,
+  "feedback": "string"
+}`;
+
+    const userPrompt = `LANGUAGE: ${input.language}
+DIFFICULTY: ${input.difficulty}
+
+ORIGINAL BUGGY CODE:
+\`\`\`
+${input.buggyCode}
+\`\`\`
+
+USER'S SUBMITTED FIX:
+\`\`\`
+${input.userCode}
+\`\`\`
+
+Judge this submission now.`;
+
+    const aiResult = await callAiJson<{ correctnessScore: number; correct: boolean; effortBonus: number; feedback: string }>({ systemPrompt, userPrompt });
+
+    if (!aiResult) {
+      return { result: fallback, provider: "fallback" };
+    }
+
+    const aiResponse = aiResult.data;
+    const { correctnessScore, correct, effortBonus, feedback } = aiResponse;
+    const clampedEffort = Math.min(typeof effortBonus === "number" ? effortBonus : 0, 10);
+    const safeCorrectness = typeof correctnessScore === "number" ? correctnessScore : 0;
+    
+    const score = safeCorrectness + speedBonus + clampedDiscipline + clampedEffort;
+
+    const result: AiJudgeResult = {
+      correct: Boolean(correct),
+      score,
+      feedback: String(feedback || "Evaluation completed."),
+      correctnessScore: safeCorrectness,
+      speedBonus,
+      disciplineBonus: clampedDiscipline,
+      effortBonus: clampedEffort,
+    };
+
+    return { result, provider: aiResult.provider };
+  } catch (err) {
+    return { result: fallback, provider: "fallback" };
+  }
 }

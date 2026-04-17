@@ -1,7 +1,7 @@
 import { env } from "@/config/env";
 
 export type DebugCoachReport = {
-  provider: "groq" | "fallback" | "python";
+  provider: "groq" | "fallback" | "python" | "nvidia-nim";
   title: string;
   rootCause: string;
   actionPlan: string[];
@@ -53,6 +53,61 @@ export type MisinfoChatResponse = {
   response: string;
 };
 
+/* ── AI Scenario Generation Types ──────────────────────────────────── */
+
+export type ScenarioDifficulty = "EASY" | "MEDIUM" | "HARD" | "EXTREME";
+
+export interface AiScenarioGeneratePayload {
+  language: "typescript" | "python" | "cpp";
+  difficulty: ScenarioDifficulty;
+  errorTypes: string[];
+  description?: string;
+}
+
+export interface AiGeneratedScenarioResponse {
+  scenario: {
+    id: string;
+    title: string;
+    language: "typescript" | "python" | "cpp";
+    difficulty: ScenarioDifficulty;
+    description: string;
+    stackTrace: string;
+    buggyCode: string;
+    hint: string;
+  };
+  evaluationCriteria: string;
+  expectedFix: string;
+  provider: string;
+}
+
+export interface AiJudgePayload {
+  buggyCode: string;
+  userCode: string;
+  evaluationCriteria: string;
+  expectedFix: string;
+  language: "typescript" | "python" | "cpp";
+  difficulty: ScenarioDifficulty;
+  durationSeconds: number;
+  keystrokes: number;
+  tabSwitches: number;
+  pasted: boolean;
+}
+
+export interface AiJudgeResponse {
+  result: {
+    correct: boolean;
+    score: number;
+    feedback: string;
+    correctnessScore: number;
+    speedBonus: number;
+    disciplineBonus: number;
+    effortBonus: number;
+  };
+  provider: string;
+}
+
+/* ── Request helper ────────────────────────────────────────────────── */
+
 async function request<T>(path: string, token: string, init?: RequestInit) {
   const response = await fetch(`${env.apiBaseUrl}${path}`, {
     ...init,
@@ -71,6 +126,8 @@ async function request<T>(path: string, token: string, init?: RequestInit) {
 
   return body as T;
 }
+
+/* ── Existing Debug Arena API functions ─────────────────────────────── */
 
 export function fetchDebugCoachReport(token: string, payload: { scenarioId: string; code: string }) {
   return request<{ report: DebugCoachReport }>("/api/v1/ai/debug-arena/coach", token, {
@@ -179,6 +236,28 @@ export function fetchPyDebugDebriefReport(
   }
 ) {
   return request<{ report: DebugDebriefReport }>("/api/v1/ai/debug-arena/py-debrief", token, {
+    method: "POST",
+    body: JSON.stringify(payload)
+  });
+}
+
+/* ── AI Scenario Generation API functions ──────────────────────────── */
+
+export function generateAiScenario(
+  token: string,
+  payload: AiScenarioGeneratePayload
+): Promise<AiGeneratedScenarioResponse> {
+  return request<AiGeneratedScenarioResponse>("/api/v1/ai/debug-arena/generate", token, {
+    method: "POST",
+    body: JSON.stringify(payload)
+  });
+}
+
+export function submitAiJudge(
+  token: string,
+  payload: AiJudgePayload
+): Promise<AiJudgeResponse> {
+  return request<AiJudgeResponse>("/api/v1/ai/debug-arena/judge", token, {
     method: "POST",
     body: JSON.stringify(payload)
   });
