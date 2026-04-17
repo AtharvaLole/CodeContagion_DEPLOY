@@ -80,6 +80,7 @@ After Phase 0 verification, we will start Phase 1 and convert the imported Lovab
 ## Production notes
 
 - The sample env file at `.env.example` now uses placeholders only. Never commit real keys.
+- The current deployed backend base URL is `https://cc-deploy-pzl7.onrender.com`.
 - Frontend static hosting includes SPA rewrites in `apps/frontend/public/_redirects`.
 - Basic browser-facing security headers for static hosts live in `apps/frontend/public/_headers`.
 - Backend and AI health endpoints stay public, but detailed runtime diagnostics are reduced in production mode.
