@@ -1,0 +1,266 @@
+[
+  {
+    "id": "41e11011-9504-447d-bd2e-00c78eb3f395",
+    "email": "racer@gmail.com",
+    "handle": "Racer2207",
+    "avatar": "🛰️",
+    "createdAt": "2026-04-15T09:00:52.860Z",
+    "stats": {
+      "elo": 1175,
+      "rank": 1,
+      "winRate": 20,
+      "totalMatches": 5,
+      "wins": 1,
+      "losses": 4,
+      "streak": 1
+    }
+  },
+  {
+    "id": "9bec5aa6-3856-40de-a969-c2a26a8fd87f",
+    "email": "atharva@gmail.com",
+    "handle": "Atharva_1",
+    "avatar": "🕶️",
+    "createdAt": "2026-04-15T08:26:54.534Z",
+    "stats": {
+      "elo": 14,
+      "rank": 2,
+      "winRate": 50,
+      "totalMatches": 2,
+      "wins": 1,
+      "losses": 1,
+      "streak": 1
+    }
+  },
+  {
+    "id": "da71a5ab-e96f-4f57-a046-95914fa4440e",
+    "email": "phase2tester@example.com",
+    "handle": "Phase2Tester",
+    "passwordHash": "$2b$10$UkZaVbeQpz9ardl5yznfyO.ChH./HY72ike91DOe9GB7.8/U8FSNO",
+    "avatar": "🛡️",
+    "createdAt": "2026-04-14T20:38:28.010Z",
+    "stats": {
+      "elo": 0,
+      "rank": 3,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "88b6da1c-0c93-46a2-8641-bd420ba787c1",
+    "email": "phase3tester@example.com",
+    "handle": "Phase3Tester",
+    "passwordHash": "$2b$10$6qQgqE3XwpV073OSjxHi0e4UtKHKxoNuz7yN5tm9oF3aOgonsDQOa",
+    "avatar": "⚡",
+    "createdAt": "2026-04-14T20:42:48.710Z",
+    "stats": {
+      "elo": 0,
+      "rank": 4,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "018a4efe-3987-4cd5-81de-fd2af6280c2c",
+    "email": "phase4tester@example.com",
+    "handle": "Phase4Tester",
+    "passwordHash": "$2b$10$DpncDbIMef7yc0daFXS5V.Kxog3h6lOoYv65BxZkC/C6/x836xkdS",
+    "avatar": "👾",
+    "createdAt": "2026-04-14T20:53:39.464Z",
+    "stats": {
+      "elo": 0,
+      "rank": 5,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "917d80a2-5606-4179-860c-9813af19d895",
+    "email": "phase5tester@example.com",
+    "handle": "Phase5Tester",
+    "passwordHash": "$2b$10$10.aGu7FmFknrMEcHHI4Ve6YaIhfWDbs.9ierA6yr78uZLVhetrkC",
+    "avatar": "🔍",
+    "createdAt": "2026-04-14T21:00:27.485Z",
+    "stats": {
+      "elo": 0,
+      "rank": 6,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "30af1516-5f2b-4f33-9435-58746c44539c",
+    "email": "atharva@code.in",
+    "handle": "Ath_Alphajod",
+    "passwordHash": "$2b$10$gqxTbCFGvxnDEU08jZ0Wl.MSKRO0LtYE5IJqA.Gv8KsGwQoIFeFTS",
+    "avatar": "🕶️",
+    "createdAt": "2026-04-15T07:03:14.192Z",
+    "stats": {
+      "elo": 0,
+      "rank": 7,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "f9845f31-d24f-4787-88b5-f3c22ca36123",
+    "email": "atharva@code.com",
+    "handle": "Ath_Alpha",
+    "passwordHash": "$2b$10$sPesOu88Ut/cm2khjzneou8z7tnO24d9SagojOmvyfnOx6YN8jZpW",
+    "avatar": "🛡️",
+    "createdAt": "2026-04-15T07:11:45.459Z",
+    "stats": {
+      "elo": 0,
+      "rank": 8,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "b0835426-c735-4727-9d59-f38092b4064d",
+    "email": "rudra@code.in",
+    "handle": "Rudi",
+    "passwordHash": "$2b$10$uDgO81ltlkRcpxBkJekMGOdNi1kiuldiWGwisCrrcDyNkKjugxF26",
+    "avatar": "👾",
+    "createdAt": "2026-04-15T07:14:15.687Z",
+    "stats": {
+      "elo": 0,
+      "rank": 9,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "fa772d7f-053d-420d-bf8a-14ffb9b659b4",
+    "email": "rudra@gmail.com",
+    "handle": "Rudra",
+    "passwordHash": "$2b$10$Zm7p53DK3/dNHpOWNuXwQ.kdmvjKnJWs0JT/R/ycor287uIWBvV6m",
+    "avatar": "🧪",
+    "createdAt": "2026-04-15T07:17:01.075Z",
+    "stats": {
+      "elo": 0,
+      "rank": 10,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "8d6afb39-1180-41b2-a5b2-2ea805cd8961",
+    "email": "ath@testing.com",
+    "handle": "Atharva",
+    "avatar": "🕶️",
+    "createdAt": "2026-04-15T08:24:56.067Z",
+    "stats": {
+      "elo": 0,
+      "rank": 11,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "5aee1380-1412-4195-914e-f8418709c73d",
+    "email": "atharva@testing123.com",
+    "handle": "Athu_2207",
+    "avatar": "👾",
+    "createdAt": "2026-04-15T08:25:40.762Z",
+    "stats": {
+      "elo": 0,
+      "rank": 12,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "2e0bfcef-82ab-4c09-afb9-1cb47d97f71a",
+    "email": "atharva@test.com",
+    "handle": "Atharva_AlphaJod",
+    "avatar": "🧠",
+    "createdAt": "2026-04-15T12:43:02.587Z",
+    "stats": {
+      "elo": 0,
+      "rank": 999,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "109ebc48-e842-4764-8569-242572b8aff7",
+    "email": "atharva@test.com",
+    "handle": "Atharva_AlphaJod_1",
+    "avatar": "🧠",
+    "createdAt": "2026-04-15T12:56:03.006Z",
+    "stats": {
+      "elo": 0,
+      "rank": 999,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+    "email": "ath@test.com",
+    "handle": "Atharva_Jett",
+    "avatar": "🔍",
+    "createdAt": "2026-04-15T22:06:30.726Z",
+    "stats": {
+      "elo": 0,
+      "rank": 999,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+    "email": "test@test.com",
+    "handle": "testing1233",
+    "avatar": "🕶️",
+    "createdAt": "2026-04-16T00:48:27.778Z",
+    "stats": {
+      "elo": 0,
+      "rank": 999,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  }
+]

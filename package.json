@@ -1,0 +1,16 @@
+{
+  "name": "codecontagion",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:frontend": "npm --prefix apps/frontend run dev",
+    "dev:backend": "npm --prefix apps/backend run dev",
+    "build:frontend": "npm --prefix apps/frontend run build",
+    "build:backend": "npm --prefix apps/backend run build",
+    "lint:frontend": "npm --prefix apps/frontend run lint",
+    "test:frontend": "npm --prefix apps/frontend run test"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0"
+  }
+}

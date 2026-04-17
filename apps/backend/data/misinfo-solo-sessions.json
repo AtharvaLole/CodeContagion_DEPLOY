@@ -1,0 +1,5600 @@
+[
+  {
+    "sessionId": "c5ba5620-c113-4fed-92a2-0d40e30ac8d4",
+    "createdAt": "2026-04-14T21:00:27.826Z",
+    "timeLeft": 165,
+    "actionPoints": 7,
+    "maxActionPoints": 15,
+    "tick": 1,
+    "panicLevel": 6,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "NewsBot_42",
+        "followers": 500,
+        "credibility": 35,
+        "status": "recovered",
+        "x": 600,
+        "y": 310,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 1,
+        "label": "TruthSeeker",
+        "followers": 975,
+        "credibility": 44,
+        "status": "susceptible",
+        "x": 620.8277658846885,
+        "y": 390.3747336815321,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 2,
+        "label": "ViralVince",
+        "followers": 1450,
+        "credibility": 53,
+        "status": "susceptible",
+        "x": 606.8319996421241,
+        "y": 483.5526546153656,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 3,
+        "label": "FactCheck_AI",
+        "followers": 1925,
+        "credibility": 62,
+        "status": "susceptible",
+        "x": 500,
+        "y": 483.2050807568877,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 4,
+        "label": "DataDiva",
+        "followers": 2400,
+        "credibility": 71,
+        "status": "infected",
+        "x": 440.80732175172864,
+        "y": 541.4298219578689,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 5,
+        "label": "InfoWars_X",
+        "followers": 2875,
+        "credibility": 80,
+        "status": "infected",
+        "x": 353.1149920299288,
+        "y": 575.8980933132962,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 6,
+        "label": "MediaWatch",
+        "followers": 3350,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 300.00000000000006,
+        "y": 483.20508075688775,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 7,
+        "label": "ClickBait99",
+        "followers": 3825,
+        "credibility": 43,
+        "status": "susceptible",
+        "x": 219.9795558670402,
+        "y": 461.0550882763368,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 8,
+        "label": "DeepFake_Dan",
+        "followers": 4300,
+        "credibility": 52,
+        "status": "susceptible",
+        "x": 146.28299238780477,
+        "y": 402.3454386979306,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 9,
+        "label": "RealNews_Hub",
+        "followers": 4775,
+        "credibility": 61,
+        "status": "susceptible",
+        "x": 200,
+        "y": 310,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 10,
+        "label": "Echo_Chamber",
+        "followers": 5250,
+        "credibility": 70,
+        "status": "susceptible",
+        "x": 179.1722341153115,
+        "y": 229.62526631846788,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 11,
+        "label": "BotNetwork",
+        "followers": 5725,
+        "credibility": 79,
+        "status": "susceptible",
+        "x": 193.1680003578759,
+        "y": 136.4473453846344,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 12,
+        "label": "Verified_Sue",
+        "followers": 6200,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 299.9999999999999,
+        "y": 136.7949192431123,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 13,
+        "label": "Troll_Farm_7",
+        "followers": 6675,
+        "credibility": 42,
+        "status": "susceptible",
+        "x": 359.19267824827136,
+        "y": 78.57017804213112,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 14,
+        "label": "CryptoGuru",
+        "followers": 7150,
+        "credibility": 51,
+        "status": "susceptible",
+        "x": 446.8850079700711,
+        "y": 44.101906686703785,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 15,
+        "label": "PolitiCheck",
+        "followers": 7625,
+        "credibility": 60,
+        "status": "susceptible",
+        "x": 500,
+        "y": 136.79491924311228,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 16,
+        "label": "Meme_Lord",
+        "followers": 8100,
+        "credibility": 69,
+        "status": "susceptible",
+        "x": 580.0204441329597,
+        "y": 158.9449117236632,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 17,
+        "label": "Conspiracy_K",
+        "followers": 8575,
+        "credibility": 78,
+        "status": "susceptible",
+        "x": 653.7170076121952,
+        "y": 217.65456130206925,
+        "contentId": "content-5g-birds"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 0
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 2
+      },
+      {
+        "source": 17,
+        "target": 0
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "02:30 AM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "02:30 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against NewsBot_42.",
+        "time": "02:30 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "02:30 AM"
+      }
+    ]
+  },
+  {
+    "sessionId": "161c0fe1-d42a-4304-a8d1-4590e86ab782",
+    "createdAt": "2026-04-15T09:01:40.068Z",
+    "timeLeft": 180,
+    "actionPoints": 10,
+    "maxActionPoints": 15,
+    "tick": 0,
+    "panicLevel": 4,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "NewsBot_42",
+        "followers": 500,
+        "credibility": 35,
+        "status": "infected",
+        "x": 600,
+        "y": 310,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 1,
+        "label": "TruthSeeker",
+        "followers": 975,
+        "credibility": 44,
+        "status": "susceptible",
+        "x": 620.8277658846885,
+        "y": 390.3747336815321,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 2,
+        "label": "ViralVince",
+        "followers": 1450,
+        "credibility": 53,
+        "status": "susceptible",
+        "x": 606.8319996421241,
+        "y": 483.5526546153656,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 3,
+        "label": "FactCheck_AI",
+        "followers": 1925,
+        "credibility": 62,
+        "status": "susceptible",
+        "x": 500,
+        "y": 483.2050807568877,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 4,
+        "label": "DataDiva",
+        "followers": 2400,
+        "credibility": 71,
+        "status": "susceptible",
+        "x": 440.80732175172864,
+        "y": 541.4298219578689,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 5,
+        "label": "InfoWars_X",
+        "followers": 2875,
+        "credibility": 80,
+        "status": "infected",
+        "x": 353.1149920299288,
+        "y": 575.8980933132962,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 6,
+        "label": "MediaWatch",
+        "followers": 3350,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 300.00000000000006,
+        "y": 483.20508075688775,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 7,
+        "label": "ClickBait99",
+        "followers": 3825,
+        "credibility": 43,
+        "status": "susceptible",
+        "x": 219.9795558670402,
+        "y": 461.0550882763368,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 8,
+        "label": "DeepFake_Dan",
+        "followers": 4300,
+        "credibility": 52,
+        "status": "susceptible",
+        "x": 146.28299238780477,
+        "y": 402.3454386979306,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 9,
+        "label": "RealNews_Hub",
+        "followers": 4775,
+        "credibility": 61,
+        "status": "susceptible",
+        "x": 200,
+        "y": 310,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 10,
+        "label": "Echo_Chamber",
+        "followers": 5250,
+        "credibility": 70,
+        "status": "susceptible",
+        "x": 179.1722341153115,
+        "y": 229.62526631846788,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 11,
+        "label": "BotNetwork",
+        "followers": 5725,
+        "credibility": 79,
+        "status": "susceptible",
+        "x": 193.1680003578759,
+        "y": 136.4473453846344,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 12,
+        "label": "Verified_Sue",
+        "followers": 6200,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 299.9999999999999,
+        "y": 136.7949192431123,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 13,
+        "label": "Troll_Farm_7",
+        "followers": 6675,
+        "credibility": 42,
+        "status": "susceptible",
+        "x": 359.19267824827136,
+        "y": 78.57017804213112,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 14,
+        "label": "CryptoGuru",
+        "followers": 7150,
+        "credibility": 51,
+        "status": "susceptible",
+        "x": 446.8850079700711,
+        "y": 44.101906686703785,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 15,
+        "label": "PolitiCheck",
+        "followers": 7625,
+        "credibility": 60,
+        "status": "susceptible",
+        "x": 500,
+        "y": 136.79491924311228,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 16,
+        "label": "Meme_Lord",
+        "followers": 8100,
+        "credibility": 69,
+        "status": "susceptible",
+        "x": 580.0204441329597,
+        "y": 158.9449117236632,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 17,
+        "label": "Conspiracy_K",
+        "followers": 8575,
+        "credibility": 78,
+        "status": "susceptible",
+        "x": 653.7170076121952,
+        "y": 217.65456130206925,
+        "contentId": "content-5g-birds"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 0
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 2
+      },
+      {
+        "source": 17,
+        "target": 0
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "02:31 PM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "02:31 PM"
+      }
+    ]
+  },
+  {
+    "sessionId": "6a3f7b6e-3d59-422a-afe6-94f5aec31338",
+    "createdAt": "2026-04-15T09:01:45.850Z",
+    "timeLeft": 180,
+    "actionPoints": 1,
+    "maxActionPoints": 15,
+    "tick": 0,
+    "panicLevel": 4,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "NewsBot_42",
+        "followers": 500,
+        "credibility": 35,
+        "status": "recovered",
+        "x": 600,
+        "y": 310,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 1,
+        "label": "TruthSeeker",
+        "followers": 975,
+        "credibility": 44,
+        "status": "susceptible",
+        "x": 620.8277658846885,
+        "y": 390.3747336815321,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 2,
+        "label": "ViralVince",
+        "followers": 1450,
+        "credibility": 53,
+        "status": "susceptible",
+        "x": 606.8319996421241,
+        "y": 483.5526546153656,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 3,
+        "label": "FactCheck_AI",
+        "followers": 1925,
+        "credibility": 62,
+        "status": "susceptible",
+        "x": 500,
+        "y": 483.2050807568877,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 4,
+        "label": "DataDiva",
+        "followers": 2400,
+        "credibility": 71,
+        "status": "susceptible",
+        "x": 440.80732175172864,
+        "y": 541.4298219578689,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 5,
+        "label": "InfoWars_X",
+        "followers": 2875,
+        "credibility": 80,
+        "status": "infected",
+        "x": 353.1149920299288,
+        "y": 575.8980933132962,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 6,
+        "label": "MediaWatch",
+        "followers": 3350,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 300.00000000000006,
+        "y": 483.20508075688775,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 7,
+        "label": "ClickBait99",
+        "followers": 3825,
+        "credibility": 43,
+        "status": "susceptible",
+        "x": 219.9795558670402,
+        "y": 461.0550882763368,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 8,
+        "label": "DeepFake_Dan",
+        "followers": 4300,
+        "credibility": 52,
+        "status": "susceptible",
+        "x": 146.28299238780477,
+        "y": 402.3454386979306,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 9,
+        "label": "RealNews_Hub",
+        "followers": 4775,
+        "credibility": 61,
+        "status": "susceptible",
+        "x": 200,
+        "y": 310,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 10,
+        "label": "Echo_Chamber",
+        "followers": 5250,
+        "credibility": 70,
+        "status": "susceptible",
+        "x": 179.1722341153115,
+        "y": 229.62526631846788,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 11,
+        "label": "BotNetwork",
+        "followers": 5725,
+        "credibility": 79,
+        "status": "susceptible",
+        "x": 193.1680003578759,
+        "y": 136.4473453846344,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 12,
+        "label": "Verified_Sue",
+        "followers": 6200,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 299.9999999999999,
+        "y": 136.7949192431123,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 13,
+        "label": "Troll_Farm_7",
+        "followers": 6675,
+        "credibility": 42,
+        "status": "susceptible",
+        "x": 359.19267824827136,
+        "y": 78.57017804213112,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 14,
+        "label": "CryptoGuru",
+        "followers": 7150,
+        "credibility": 51,
+        "status": "susceptible",
+        "x": 446.8850079700711,
+        "y": 44.101906686703785,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 15,
+        "label": "PolitiCheck",
+        "followers": 7625,
+        "credibility": 60,
+        "status": "susceptible",
+        "x": 500,
+        "y": 136.79491924311228,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 16,
+        "label": "Meme_Lord",
+        "followers": 8100,
+        "credibility": 69,
+        "status": "susceptible",
+        "x": 580.0204441329597,
+        "y": 158.9449117236632,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 17,
+        "label": "Conspiracy_K",
+        "followers": 8575,
+        "credibility": 78,
+        "status": "susceptible",
+        "x": 653.7170076121952,
+        "y": 217.65456130206925,
+        "contentId": "content-5g-birds"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 0
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 2
+      },
+      {
+        "source": 17,
+        "target": 0
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "02:31 PM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "02:31 PM"
+      },
+      {
+        "type": "action",
+        "message": "Deep forensic scan completed on NewsBot_42.",
+        "time": "02:32 PM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around NewsBot_42.",
+        "time": "02:32 PM"
+      },
+      {
+        "type": "action",
+        "message": "Deep forensic scan completed on NewsBot_42.",
+        "time": "02:32 PM"
+      }
+    ]
+  },
+  {
+    "sessionId": "fd3ac6af-4031-4f87-820f-92bb4fcbae40",
+    "createdAt": "2026-04-15T10:24:04.232Z",
+    "timeLeft": 180,
+    "actionPoints": 0,
+    "maxActionPoints": 15,
+    "tick": 0,
+    "panicLevel": 0,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "NewsBot_42",
+        "followers": 500,
+        "credibility": 35,
+        "status": "recovered",
+        "x": 600,
+        "y": 310,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 1,
+        "label": "TruthSeeker",
+        "followers": 975,
+        "credibility": 44,
+        "status": "susceptible",
+        "x": 620.8277658846885,
+        "y": 390.3747336815321,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 2,
+        "label": "ViralVince",
+        "followers": 1450,
+        "credibility": 53,
+        "status": "susceptible",
+        "x": 606.8319996421241,
+        "y": 483.5526546153656,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 3,
+        "label": "FactCheck_AI",
+        "followers": 1925,
+        "credibility": 62,
+        "status": "susceptible",
+        "x": 500,
+        "y": 483.2050807568877,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 4,
+        "label": "DataDiva",
+        "followers": 2400,
+        "credibility": 71,
+        "status": "susceptible",
+        "x": 440.80732175172864,
+        "y": 541.4298219578689,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 5,
+        "label": "InfoWars_X",
+        "followers": 2875,
+        "credibility": 80,
+        "status": "recovered",
+        "x": 353.1149920299288,
+        "y": 575.8980933132962,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 6,
+        "label": "MediaWatch",
+        "followers": 3350,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 300.00000000000006,
+        "y": 483.20508075688775,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 7,
+        "label": "ClickBait99",
+        "followers": 3825,
+        "credibility": 43,
+        "status": "susceptible",
+        "x": 219.9795558670402,
+        "y": 461.0550882763368,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 8,
+        "label": "DeepFake_Dan",
+        "followers": 4300,
+        "credibility": 52,
+        "status": "susceptible",
+        "x": 146.28299238780477,
+        "y": 402.3454386979306,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 9,
+        "label": "RealNews_Hub",
+        "followers": 4775,
+        "credibility": 61,
+        "status": "susceptible",
+        "x": 200,
+        "y": 310,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 10,
+        "label": "Echo_Chamber",
+        "followers": 5250,
+        "credibility": 70,
+        "status": "susceptible",
+        "x": 179.1722341153115,
+        "y": 229.62526631846788,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 11,
+        "label": "BotNetwork",
+        "followers": 5725,
+        "credibility": 79,
+        "status": "susceptible",
+        "x": 193.1680003578759,
+        "y": 136.4473453846344,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 12,
+        "label": "Verified_Sue",
+        "followers": 6200,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 299.9999999999999,
+        "y": 136.7949192431123,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 13,
+        "label": "Troll_Farm_7",
+        "followers": 6675,
+        "credibility": 42,
+        "status": "susceptible",
+        "x": 359.19267824827136,
+        "y": 78.57017804213112,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 14,
+        "label": "CryptoGuru",
+        "followers": 7150,
+        "credibility": 51,
+        "status": "susceptible",
+        "x": 446.8850079700711,
+        "y": 44.101906686703785,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 15,
+        "label": "PolitiCheck",
+        "followers": 7625,
+        "credibility": 60,
+        "status": "susceptible",
+        "x": 500,
+        "y": 136.79491924311228,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 16,
+        "label": "Meme_Lord",
+        "followers": 8100,
+        "credibility": 69,
+        "status": "susceptible",
+        "x": 580.0204441329597,
+        "y": 158.9449117236632,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 17,
+        "label": "Conspiracy_K",
+        "followers": 8575,
+        "credibility": 78,
+        "status": "susceptible",
+        "x": 653.7170076121952,
+        "y": 217.65456130206925,
+        "contentId": "content-5g-birds"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 0
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 2
+      },
+      {
+        "source": 17,
+        "target": 0
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "03:54 PM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "03:54 PM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around InfoWars_X.",
+        "time": "03:54 PM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around NewsBot_42.",
+        "time": "03:55 PM"
+      }
+    ]
+  },
+  {
+    "sessionId": "ff74028b-f832-4d94-8522-e644f0dacc7a",
+    "createdAt": "2026-04-15T10:27:43.461Z",
+    "timeLeft": 105,
+    "actionPoints": 9,
+    "maxActionPoints": 15,
+    "tick": 5,
+    "panicLevel": 3,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "NewsBot_42",
+        "followers": 500,
+        "credibility": 35,
+        "status": "recovered",
+        "x": 600,
+        "y": 310,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 1,
+        "label": "TruthSeeker",
+        "followers": 975,
+        "credibility": 44,
+        "status": "susceptible",
+        "x": 620.8277658846885,
+        "y": 390.3747336815321,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 2,
+        "label": "ViralVince",
+        "followers": 1450,
+        "credibility": 53,
+        "status": "susceptible",
+        "x": 606.8319996421241,
+        "y": 483.5526546153656,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 3,
+        "label": "FactCheck_AI",
+        "followers": 1925,
+        "credibility": 62,
+        "status": "susceptible",
+        "x": 500,
+        "y": 483.2050807568877,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 4,
+        "label": "DataDiva",
+        "followers": 2400,
+        "credibility": 71,
+        "status": "susceptible",
+        "x": 440.80732175172864,
+        "y": 541.4298219578689,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 5,
+        "label": "InfoWars_X",
+        "followers": 2875,
+        "credibility": 80,
+        "status": "recovered",
+        "x": 353.1149920299288,
+        "y": 575.8980933132962,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 6,
+        "label": "MediaWatch",
+        "followers": 3350,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 300.00000000000006,
+        "y": 483.20508075688775,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 7,
+        "label": "ClickBait99",
+        "followers": 3825,
+        "credibility": 43,
+        "status": "susceptible",
+        "x": 219.9795558670402,
+        "y": 461.0550882763368,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 8,
+        "label": "DeepFake_Dan",
+        "followers": 4300,
+        "credibility": 52,
+        "status": "susceptible",
+        "x": 146.28299238780477,
+        "y": 402.3454386979306,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 9,
+        "label": "RealNews_Hub",
+        "followers": 4775,
+        "credibility": 61,
+        "status": "susceptible",
+        "x": 200,
+        "y": 310,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 10,
+        "label": "Echo_Chamber",
+        "followers": 5250,
+        "credibility": 70,
+        "status": "susceptible",
+        "x": 179.1722341153115,
+        "y": 229.62526631846788,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 11,
+        "label": "BotNetwork",
+        "followers": 5725,
+        "credibility": 79,
+        "status": "susceptible",
+        "x": 193.1680003578759,
+        "y": 136.4473453846344,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 12,
+        "label": "Verified_Sue",
+        "followers": 6200,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 299.9999999999999,
+        "y": 136.7949192431123,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 13,
+        "label": "Troll_Farm_7",
+        "followers": 6675,
+        "credibility": 42,
+        "status": "susceptible",
+        "x": 359.19267824827136,
+        "y": 78.57017804213112,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 14,
+        "label": "CryptoGuru",
+        "followers": 7150,
+        "credibility": 51,
+        "status": "susceptible",
+        "x": 446.8850079700711,
+        "y": 44.101906686703785,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 15,
+        "label": "PolitiCheck",
+        "followers": 7625,
+        "credibility": 60,
+        "status": "susceptible",
+        "x": 500,
+        "y": 136.79491924311228,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 16,
+        "label": "Meme_Lord",
+        "followers": 8100,
+        "credibility": 69,
+        "status": "susceptible",
+        "x": 580.0204441329597,
+        "y": 158.9449117236632,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 17,
+        "label": "Conspiracy_K",
+        "followers": 8575,
+        "credibility": 78,
+        "status": "susceptible",
+        "x": 653.7170076121952,
+        "y": 217.65456130206925,
+        "contentId": "content-5g-birds"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 0
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 2
+      },
+      {
+        "source": 17,
+        "target": 0
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "03:57 PM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "03:57 PM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around NewsBot_42.",
+        "time": "03:57 PM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around InfoWars_X.",
+        "time": "03:57 PM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "04:04 PM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "04:04 PM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "04:05 PM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "04:05 PM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "04:05 PM"
+      }
+    ]
+  },
+  {
+    "sessionId": "ca68beaa-8066-40be-b564-83059b61433c",
+    "createdAt": "2026-04-15T10:39:02.136Z",
+    "timeLeft": 180,
+    "actionPoints": 1,
+    "maxActionPoints": 15,
+    "tick": 0,
+    "panicLevel": 14,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "CivicRadar",
+        "followers": 1004,
+        "credibility": 31,
+        "status": "flagged",
+        "x": 574.9428785446572,
+        "y": 317,
+        "contentId": "content-cisa-framework",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 1,
+        "label": "NewsBot_42",
+        "followers": 1678,
+        "credibility": 40,
+        "status": "susceptible",
+        "x": 599.6631468977534,
+        "y": 350.9238022669498,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 2,
+        "label": "PulsePatrol",
+        "followers": 2042,
+        "credibility": 54,
+        "status": "susceptible",
+        "x": 636.8375561943695,
+        "y": 432.40130036875655,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 3,
+        "label": "RealNews_Hub",
+        "followers": 2205,
+        "credibility": 63,
+        "status": "susceptible",
+        "x": 625.2261880711612,
+        "y": 525.5329912150431,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 4,
+        "label": "ViralVince",
+        "followers": 2619,
+        "credibility": 70,
+        "status": "susceptible",
+        "x": 506.5502034430923,
+        "y": 456.50587004448226,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 5,
+        "label": "Meme_Lord",
+        "followers": 3260,
+        "credibility": 87,
+        "status": "susceptible",
+        "x": 481.1212078301865,
+        "y": 524.6254791328886,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 6,
+        "label": "CryptoGuru",
+        "followers": 3586,
+        "credibility": 27,
+        "status": "susceptible",
+        "x": 431.68098959229576,
+        "y": 547.6806825098123,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 7,
+        "label": "Conspiracy_K",
+        "followers": 3864,
+        "credibility": 44,
+        "status": "susceptible",
+        "x": 374.4810574898536,
+        "y": 601.760550445789,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 8,
+        "label": "SirenThread",
+        "followers": 4393,
+        "credibility": 53,
+        "status": "susceptible",
+        "x": 316.7052736672308,
+        "y": 490.4416102749918,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 9,
+        "label": "InfoWars_X",
+        "followers": 4316,
+        "credibility": 64,
+        "status": "susceptible",
+        "x": 264.2462502913244,
+        "y": 496.532009411417,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 10,
+        "label": "ClickBait99",
+        "followers": 4777,
+        "credibility": 73,
+        "status": "infected",
+        "x": 202.9904262161381,
+        "y": 475.53525228014144,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 11,
+        "label": "NarrativeNexus",
+        "followers": 5307,
+        "credibility": 83,
+        "status": "susceptible",
+        "x": 141.19580560065552,
+        "y": 442.25639805846555,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 12,
+        "label": "Echo_Chamber",
+        "followers": 5684,
+        "credibility": 29,
+        "status": "susceptible",
+        "x": 189.07284485492855,
+        "y": 357.5381843731239,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 13,
+        "label": "PolitiCheck",
+        "followers": 6061,
+        "credibility": 46,
+        "status": "susceptible",
+        "x": 173.19725319006935,
+        "y": 318,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 14,
+        "label": "MythMachine",
+        "followers": 6249,
+        "credibility": 57,
+        "status": "infected",
+        "x": 143.94131765206367,
+        "y": 243.1477695750009,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 15,
+        "label": "FactWave",
+        "followers": 6959,
+        "credibility": 63,
+        "status": "susceptible",
+        "x": 130.21941954718739,
+        "y": 164.1814740346472,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 16,
+        "label": "SignalSurge",
+        "followers": 7250,
+        "credibility": 73,
+        "status": "susceptible",
+        "x": 240.9079203416168,
+        "y": 186.91594318814546,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 17,
+        "label": "ChannelZero",
+        "followers": 7919,
+        "credibility": 85,
+        "status": "susceptible",
+        "x": 269.84921550314107,
+        "y": 131.54653605608166,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 18,
+        "label": "DeepFake_Dan",
+        "followers": 8252,
+        "credibility": 31,
+        "status": "susceptible",
+        "x": 324.77089049149583,
+        "y": 59.722174568340876,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 19,
+        "label": "TrustAnchor",
+        "followers": 8360,
+        "credibility": 42,
+        "status": "susceptible",
+        "x": 377.4171995912196,
+        "y": 10.185014352161488,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 20,
+        "label": "EchoBloom",
+        "followers": 9020,
+        "credibility": 55,
+        "status": "recovered",
+        "x": 421.15817236387716,
+        "y": 109.51103238598063,
+        "contentId": "content-election-alert",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 21,
+        "label": "Verified_Sue",
+        "followers": 9007,
+        "credibility": 63,
+        "status": "susceptible",
+        "x": 472.7370319452659,
+        "y": 92.47715953629006,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 22,
+        "label": "ShadowLedger",
+        "followers": 9810,
+        "credibility": 73,
+        "status": "susceptible",
+        "x": 560.4220100851911,
+        "y": 101.3198464882436,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 23,
+        "label": "DataDiva",
+        "followers": 10301,
+        "credibility": 26,
+        "status": "infected",
+        "x": 641.9246209386938,
+        "y": 117.84825125762302,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 24,
+        "label": "HyperFeed",
+        "followers": 10118,
+        "credibility": 37,
+        "status": "susceptible",
+        "x": 569.9253323899183,
+        "y": 236.53987011916215,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 25,
+        "label": "FactCheck_AI",
+        "followers": 11097,
+        "credibility": 46,
+        "status": "susceptible",
+        "x": 623.7014658845166,
+        "y": 247.5597086771432,
+        "contentId": "content-crypto-miner"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 10
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 16
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 22
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 13,
+        "target": 21
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 23
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 25
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 24
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 22
+      },
+      {
+        "source": 18,
+        "target": 25
+      },
+      {
+        "source": 18,
+        "target": 2
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 23
+      },
+      {
+        "source": 19,
+        "target": 1
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 24
+      },
+      {
+        "source": 20,
+        "target": 3
+      },
+      {
+        "source": 21,
+        "target": 22
+      },
+      {
+        "source": 21,
+        "target": 25
+      },
+      {
+        "source": 21,
+        "target": 2
+      },
+      {
+        "source": 21,
+        "target": 5
+      },
+      {
+        "source": 22,
+        "target": 23
+      },
+      {
+        "source": 22,
+        "target": 0
+      },
+      {
+        "source": 22,
+        "target": 4
+      },
+      {
+        "source": 23,
+        "target": 24
+      },
+      {
+        "source": 23,
+        "target": 1
+      },
+      {
+        "source": 23,
+        "target": 6
+      },
+      {
+        "source": 24,
+        "target": 25
+      },
+      {
+        "source": 24,
+        "target": 2
+      },
+      {
+        "source": 24,
+        "target": 5
+      },
+      {
+        "source": 24,
+        "target": 8
+      },
+      {
+        "source": 25,
+        "target": 0
+      },
+      {
+        "source": 25,
+        "target": 3
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "04:09 PM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "04:09 PM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against CivicRadar.",
+        "time": "04:09 PM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around EchoBloom.",
+        "time": "04:09 PM"
+      }
+    ]
+  },
+  {
+    "sessionId": "a0f0a6d8-b76c-4881-bd5f-1a121b00c433",
+    "createdAt": "2026-04-15T10:45:56.033Z",
+    "timeLeft": 180,
+    "actionPoints": 24,
+    "maxActionPoints": 24,
+    "tick": 0,
+    "panicLevel": 13,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "HyperFeed",
+        "followers": 1341,
+        "credibility": 29,
+        "status": "susceptible",
+        "x": 618.1690553088338,
+        "y": 308,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 1,
+        "label": "ViralVince",
+        "followers": 1360,
+        "credibility": 39,
+        "status": "susceptible",
+        "x": 613.5292102964027,
+        "y": 351.6265221912565,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 2,
+        "label": "DataDiva",
+        "followers": 1853,
+        "credibility": 55,
+        "status": "susceptible",
+        "x": 644.9536201947777,
+        "y": 437.9184850589631,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 3,
+        "label": "Verified_Sue",
+        "followers": 2336,
+        "credibility": 58,
+        "status": "susceptible",
+        "x": 594.936230385765,
+        "y": 504.93623038576493,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 4,
+        "label": "TruthSeeker",
+        "followers": 2541,
+        "credibility": 76,
+        "status": "flagged",
+        "x": 514.6740447016809,
+        "y": 489.908458811634,
+        "contentId": "content-deepfake-ceo",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 5,
+        "label": "BotNetwork",
+        "followers": 2718,
+        "credibility": 84,
+        "status": "infected",
+        "x": 453.7713353935676,
+        "y": 543.3376097174654,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 6,
+        "label": "TrustAnchor",
+        "followers": 3340,
+        "credibility": 32,
+        "status": "susceptible",
+        "x": 388,
+        "y": 578.0622024594878,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 7,
+        "label": "MythMachine",
+        "followers": 3733,
+        "credibility": 40,
+        "status": "susceptible",
+        "x": 319.77499470568387,
+        "y": 590.7435417580255,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 8,
+        "label": "ShadowLedger",
+        "followers": 4368,
+        "credibility": 51,
+        "status": "susceptible",
+        "x": 319.2228348965821,
+        "y": 474.2306621261883,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 9,
+        "label": "RealNews_Hub",
+        "followers": 4488,
+        "credibility": 67,
+        "status": "susceptible",
+        "x": 250.6557340863327,
+        "y": 464.3442659136673,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 10,
+        "label": "DeepFake_Dan",
+        "followers": 4929,
+        "credibility": 76,
+        "status": "susceptible",
+        "x": 189.70870929865208,
+        "y": 450.6078857173637,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 11,
+        "label": "FactCheck_AI",
+        "followers": 5604,
+        "credibility": 83,
+        "status": "susceptible",
+        "x": 103.0527178367775,
+        "y": 391.0834449486477,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 12,
+        "label": "ClickBait99",
+        "followers": 5651,
+        "credibility": 34,
+        "status": "recovered",
+        "x": 206.95604929853204,
+        "y": 299,
+        "contentId": "content-crypto-miner",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 13,
+        "label": "CryptoGuru",
+        "followers": 6242,
+        "credibility": 44,
+        "status": "susceptible",
+        "x": 179.70066228907936,
+        "y": 234.70302117481663,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 14,
+        "label": "FactWave",
+        "followers": 6298,
+        "credibility": 57,
+        "status": "recovered",
+        "x": 157.02588531568315,
+        "y": 182.33763163441563,
+        "contentId": "content-election-alert",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 15,
+        "label": "MediaWatch",
+        "followers": 6603,
+        "credibility": 67,
+        "status": "susceptible",
+        "x": 195.65308540815593,
+        "y": 94.65308540815599,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 16,
+        "label": "SignalSurge",
+        "followers": 7179,
+        "credibility": 79,
+        "status": "susceptible",
+        "x": 283.28560687123434,
+        "y": 140.5575540475122,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 17,
+        "label": "ChannelZero",
+        "followers": 7552,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 342.07857185389736,
+        "y": 99.29838892693255,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 18,
+        "label": "EchoBloom",
+        "followers": 8003,
+        "credibility": 36,
+        "status": "susceptible",
+        "x": 382.99999999999994,
+        "y": 46.74725993859056,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 19,
+        "label": "InfoWars_X",
+        "followers": 8654,
+        "credibility": 46,
+        "status": "susceptible",
+        "x": 492.6073763904245,
+        "y": 10.365328268813698,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 20,
+        "label": "CivicRadar",
+        "followers": 8700,
+        "credibility": 57,
+        "status": "flagged",
+        "x": 492.0061223554773,
+        "y": 153.17661985777684,
+        "contentId": "content-bank-freeze",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 21,
+        "label": "PolitiCheck",
+        "followers": 9534,
+        "credibility": 63,
+        "status": "susceptible",
+        "x": 566.9077506487624,
+        "y": 154.09224935123748,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 22,
+        "label": "Echo_Chamber",
+        "followers": 9610,
+        "credibility": 74,
+        "status": "susceptible",
+        "x": 627.1352387016125,
+        "y": 193.48221094669097,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 23,
+        "label": "PulsePatrol",
+        "followers": 10075,
+        "credibility": 89,
+        "status": "infected",
+        "x": 701.1595525826749,
+        "y": 236.51993140172752,
+        "contentId": "content-election-alert"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 5,
+        "target": 14
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 7,
+        "target": 15
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 22
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 23
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 22
+      },
+      {
+        "source": 15,
+        "target": 1
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 0
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 22
+      },
+      {
+        "source": 18,
+        "target": 1
+      },
+      {
+        "source": 18,
+        "target": 4
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 23
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 0
+      },
+      {
+        "source": 20,
+        "target": 5
+      },
+      {
+        "source": 21,
+        "target": 22
+      },
+      {
+        "source": 21,
+        "target": 1
+      },
+      {
+        "source": 21,
+        "target": 7
+      },
+      {
+        "source": 22,
+        "target": 23
+      },
+      {
+        "source": 22,
+        "target": 2
+      },
+      {
+        "source": 22,
+        "target": 6
+      },
+      {
+        "source": 23,
+        "target": 0
+      },
+      {
+        "source": 23,
+        "target": 3
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "04:15 PM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "04:15 PM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against TruthSeeker.",
+        "time": "04:16 PM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around ClickBait99.",
+        "time": "04:16 PM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against CivicRadar.",
+        "time": "04:16 PM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around FactWave.",
+        "time": "04:16 PM"
+      }
+    ]
+  },
+  {
+    "sessionId": "642f206f-d043-4ef2-b137-22abed0a8970",
+    "createdAt": "2026-04-15T11:20:00.298Z",
+    "timeLeft": 180,
+    "actionPoints": 27,
+    "maxActionPoints": 27,
+    "tick": 0,
+    "panicLevel": 5,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "Echo_Chamber",
+        "followers": 959,
+        "credibility": 26,
+        "status": "susceptible",
+        "x": 605.0442427324932,
+        "y": 302,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 1,
+        "label": "CryptoGuru",
+        "followers": 1387,
+        "credibility": 40,
+        "status": "recovered",
+        "x": 594.9959945440655,
+        "y": 357.76996498151885,
+        "contentId": "content-deepfake-ceo",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 2,
+        "label": "RealNews_Hub",
+        "followers": 1867,
+        "credibility": 55,
+        "status": "susceptible",
+        "x": 628.3425660305177,
+        "y": 419.17129023192774,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 3,
+        "label": "DeepFake_Dan",
+        "followers": 1959,
+        "credibility": 59,
+        "status": "recovered",
+        "x": 612.2994633978105,
+        "y": 511.56599553507374,
+        "contentId": "content-hospital-breach",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 4,
+        "label": "NewsBot_42",
+        "followers": 2654,
+        "credibility": 73,
+        "status": "flagged",
+        "x": 525.6429630248998,
+        "y": 457.6489907408807,
+        "contentId": "content-crypto-miner",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 5,
+        "label": "DataDiva",
+        "followers": 2972,
+        "credibility": 81,
+        "status": "flagged",
+        "x": 487.431468916621,
+        "y": 527.5984910227495,
+        "contentId": "content-bank-freeze",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 6,
+        "label": "FactCheck_AI",
+        "followers": 3151,
+        "credibility": 31,
+        "status": "susceptible",
+        "x": 446.1705785589394,
+        "y": 582.5176446021617,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 7,
+        "label": "TruthSeeker",
+        "followers": 3825,
+        "credibility": 38,
+        "status": "susceptible",
+        "x": 398.6449452804756,
+        "y": 599.9747819091774,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 8,
+        "label": "Conspiracy_K",
+        "followers": 4340,
+        "credibility": 52,
+        "status": "susceptible",
+        "x": 353.52353009400815,
+        "y": 483.64454682434774,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 9,
+        "label": "TrustAnchor",
+        "followers": 4440,
+        "credibility": 62,
+        "status": "susceptible",
+        "x": 305.3208635110175,
+        "y": 481.50573531406155,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 10,
+        "label": "MediaWatch",
+        "followers": 4967,
+        "credibility": 71,
+        "status": "susceptible",
+        "x": 222.93314390435623,
+        "y": 488.85971706944434,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 11,
+        "label": "Verified_Sue",
+        "followers": 5302,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 154.43344300243393,
+        "y": 475.5385342898884,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 12,
+        "label": "BotNetwork",
+        "followers": 5485,
+        "credibility": 28,
+        "status": "susceptible",
+        "x": 235.04087411006154,
+        "y": 359.04388427143715,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 13,
+        "label": "FactWave",
+        "followers": 6000,
+        "credibility": 39,
+        "status": "flagged",
+        "x": 168.78300469819644,
+        "y": 324.6098069881602,
+        "contentId": "content-crypto-miner",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 14,
+        "label": "ClickBait99",
+        "followers": 6782,
+        "credibility": 50,
+        "status": "susceptible",
+        "x": 151.91227273083518,
+        "y": 271.18452077949917,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 15,
+        "label": "Troll_Farm_7",
+        "followers": 7161,
+        "credibility": 67,
+        "status": "susceptible",
+        "x": 114.35415605895895,
+        "y": 222.58120690347565,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 16,
+        "label": "HyperFeed",
+        "followers": 7053,
+        "credibility": 73,
+        "status": "susceptible",
+        "x": 228.5853844844496,
+        "y": 213.2319648474231,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 17,
+        "label": "CivicRadar",
+        "followers": 7934,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 237.95040204662646,
+        "y": 135.01665586039238,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 18,
+        "label": "PolitiCheck",
+        "followers": 8204,
+        "credibility": 32,
+        "status": "susceptible",
+        "x": 275.63307461902855,
+        "y": 79.39401403632374,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 19,
+        "label": "SignalSurge",
+        "followers": 8347,
+        "credibility": 43,
+        "status": "susceptible",
+        "x": 305.029122906267,
+        "y": 27.85797014191064,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 20,
+        "label": "ChannelZero",
+        "followers": 8888,
+        "credibility": 50,
+        "status": "susceptible",
+        "x": 378.11995843364156,
+        "y": 119.19690054038205,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 21,
+        "label": "NarrativeNexus",
+        "followers": 9083,
+        "credibility": 61,
+        "status": "susceptible",
+        "x": 428.41848633289237,
+        "y": 86.44665510341792,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 22,
+        "label": "Meme_Lord",
+        "followers": 9361,
+        "credibility": 78,
+        "status": "susceptible",
+        "x": 491.4226662414598,
+        "y": 68.87583125757558,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 23,
+        "label": "SirenThread",
+        "followers": 9875,
+        "credibility": 87,
+        "status": "flagged",
+        "x": 575.6397052386193,
+        "y": 84.13433102248527,
+        "contentId": "content-bank-freeze",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 24,
+        "label": "ViralVince",
+        "followers": 10126,
+        "credibility": 33,
+        "status": "susceptible",
+        "x": 548.4419438080981,
+        "y": 181.92512080585445,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 25,
+        "label": "ShadowLedger",
+        "followers": 10843,
+        "credibility": 48,
+        "status": "susceptible",
+        "x": 581.8594499665684,
+        "y": 210.6312494273114,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 26,
+        "label": "PulsePatrol",
+        "followers": 11023,
+        "credibility": 53,
+        "status": "susceptible",
+        "x": 670.3461480026915,
+        "y": 248.29682943572374,
+        "contentId": "content-5g-birds"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 16
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 22
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 23
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 25
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 24
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 17,
+        "target": 26
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 22
+      },
+      {
+        "source": 18,
+        "target": 25
+      },
+      {
+        "source": 18,
+        "target": 1
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 23
+      },
+      {
+        "source": 19,
+        "target": 0
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 24
+      },
+      {
+        "source": 20,
+        "target": 2
+      },
+      {
+        "source": 21,
+        "target": 22
+      },
+      {
+        "source": 21,
+        "target": 25
+      },
+      {
+        "source": 21,
+        "target": 4
+      },
+      {
+        "source": 22,
+        "target": 23
+      },
+      {
+        "source": 22,
+        "target": 26
+      },
+      {
+        "source": 22,
+        "target": 3
+      },
+      {
+        "source": 23,
+        "target": 24
+      },
+      {
+        "source": 23,
+        "target": 0
+      },
+      {
+        "source": 24,
+        "target": 25
+      },
+      {
+        "source": 24,
+        "target": 1
+      },
+      {
+        "source": 24,
+        "target": 4
+      },
+      {
+        "source": 24,
+        "target": 7
+      },
+      {
+        "source": 25,
+        "target": 26
+      },
+      {
+        "source": 25,
+        "target": 2
+      },
+      {
+        "source": 26,
+        "target": 0
+      },
+      {
+        "source": 26,
+        "target": 3
+      },
+      {
+        "source": 26,
+        "target": 8
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "04:50 PM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "04:50 PM"
+      },
+      {
+        "type": "action",
+        "message": "Deep forensic scan completed on NewsBot_42.",
+        "time": "04:50 PM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around DeepFake_Dan.",
+        "time": "04:50 PM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around CryptoGuru.",
+        "time": "04:50 PM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against SirenThread.",
+        "time": "04:50 PM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against FactWave.",
+        "time": "04:50 PM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against NewsBot_42.",
+        "time": "04:50 PM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against DataDiva.",
+        "time": "04:50 PM"
+      }
+    ]
+  },
+  {
+    "sessionId": "dbb87cfc-a4cc-405d-9b32-abc2304ef459",
+    "createdAt": "2026-04-16T01:17:37.099Z",
+    "timeLeft": 165,
+    "actionPoints": 29,
+    "maxActionPoints": 29,
+    "tick": 1,
+    "panicLevel": 31,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "ChannelZero",
+        "followers": 1343,
+        "credibility": 33,
+        "status": "susceptible",
+        "x": 582.4353115455793,
+        "y": 302,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 1,
+        "label": "InfoWars_X",
+        "followers": 1326,
+        "credibility": 41,
+        "status": "susceptible",
+        "x": 623.0449694475532,
+        "y": 358.53614366046395,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 2,
+        "label": "MythMachine",
+        "followers": 1686,
+        "credibility": 52,
+        "status": "susceptible",
+        "x": 639.5360331102881,
+        "y": 415.73202792514604,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 3,
+        "label": "MediaWatch",
+        "followers": 2006,
+        "credibility": 65,
+        "status": "infected",
+        "x": 655.618993949616,
+        "y": 496.3934433228426,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 4,
+        "label": "FactWave",
+        "followers": 2669,
+        "credibility": 75,
+        "status": "susceptible",
+        "x": 506.40045465318303,
+        "y": 440.746373245607,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 5,
+        "label": "BotNetwork",
+        "followers": 3046,
+        "credibility": 86,
+        "status": "recovered",
+        "x": 512.3870590219346,
+        "y": 514.0086803501362,
+        "contentId": "content-crypto-miner",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 6,
+        "label": "SignalSurge",
+        "followers": 3348,
+        "credibility": 26,
+        "status": "infected",
+        "x": 468.37353563526835,
+        "y": 567.4625681440012,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 7,
+        "label": "NarrativeNexus",
+        "followers": 3637,
+        "credibility": 44,
+        "status": "infected",
+        "x": 405.4031564136646,
+        "y": 611.5384182953809,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 8,
+        "label": "FactCheck_AI",
+        "followers": 3891,
+        "credibility": 54,
+        "status": "susceptible",
+        "x": 364.13042184391423,
+        "y": 503.49555698614427,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 9,
+        "label": "HyperFeed",
+        "followers": 4303,
+        "credibility": 62,
+        "status": "susceptible",
+        "x": 313.9291433344094,
+        "y": 497.9823180016069,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 10,
+        "label": "Meme_Lord",
+        "followers": 4686,
+        "credibility": 71,
+        "status": "infected",
+        "x": 243.86935625361883,
+        "y": 535.1521266999421,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 11,
+        "label": "DeepFake_Dan",
+        "followers": 5142,
+        "credibility": 87,
+        "status": "infected",
+        "x": 206.1377801378207,
+        "y": 511.84480368282186,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 12,
+        "label": "EchoBloom",
+        "followers": 5489,
+        "credibility": 29,
+        "status": "susceptible",
+        "x": 242.1754064436891,
+        "y": 423.9767076050017,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 13,
+        "label": "TrustAnchor",
+        "followers": 6038,
+        "credibility": 41,
+        "status": "susceptible",
+        "x": 174.84426920355557,
+        "y": 365.15746710934945,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 14,
+        "label": "Conspiracy_K",
+        "followers": 6210,
+        "credibility": 50,
+        "status": "susceptible",
+        "x": 123.07575561018103,
+        "y": 321.13851755376214,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 15,
+        "label": "CryptoGuru",
+        "followers": 6738,
+        "credibility": 68,
+        "status": "infected",
+        "x": 125.44782264877801,
+        "y": 269.6180595411456,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 16,
+        "label": "NewsBot_42",
+        "followers": 7292,
+        "credibility": 75,
+        "status": "susceptible",
+        "x": 203.00105888772325,
+        "y": 257.0035383966262,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 17,
+        "label": "TruthSeeker",
+        "followers": 7911,
+        "credibility": 85,
+        "status": "susceptible",
+        "x": 181.95337014690443,
+        "y": 203.4325763410448,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 18,
+        "label": "Verified_Sue",
+        "followers": 8366,
+        "credibility": 34,
+        "status": "susceptible",
+        "x": 217.3408865262911,
+        "y": 113.66184301064916,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 19,
+        "label": "CivicRadar",
+        "followers": 8671,
+        "credibility": 39,
+        "status": "susceptible",
+        "x": 232.52751165923092,
+        "y": 44.52166951366675,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 20,
+        "label": "PulsePatrol",
+        "followers": 8793,
+        "credibility": 55,
+        "status": "susceptible",
+        "x": 319.3432338319817,
+        "y": 130.68451047846833,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 21,
+        "label": "ShadowLedger",
+        "followers": 9031,
+        "credibility": 69,
+        "status": "susceptible",
+        "x": 367.5182393564002,
+        "y": 81.57083473033717,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 22,
+        "label": "Troll_Farm_7",
+        "followers": 9430,
+        "credibility": 77,
+        "status": "susceptible",
+        "x": 414.38775997086543,
+        "y": 51.63338185489903,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 23,
+        "label": "SirenThread",
+        "followers": 9922,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 491.06070683408404,
+        "y": 17.452417931801733,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 24,
+        "label": "RealNews_Hub",
+        "followers": 10386,
+        "credibility": 32,
+        "status": "infected",
+        "x": 493.4189594014143,
+        "y": 159.88275082650668,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 25,
+        "label": "Echo_Chamber",
+        "followers": 10701,
+        "credibility": 43,
+        "status": "infected",
+        "x": 534.1958470394427,
+        "y": 147.94868919573852,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 26,
+        "label": "ViralVince",
+        "followers": 11020,
+        "credibility": 57,
+        "status": "susceptible",
+        "x": 589.2383765942914,
+        "y": 161.26238299283818,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 27,
+        "label": "ClickBait99",
+        "followers": 11685,
+        "credibility": 63,
+        "status": "susceptible",
+        "x": 650.5087009821696,
+        "y": 198.69994516382175,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 28,
+        "label": "PolitiCheck",
+        "followers": 12073,
+        "credibility": 75,
+        "status": "infected",
+        "x": 605.6271381422567,
+        "y": 266.03979389639886,
+        "contentId": "content-cyber-drill"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 5,
+        "target": 14
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 7,
+        "target": 15
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 11,
+        "target": 20
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 22
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 13,
+        "target": 21
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 23
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 22
+      },
+      {
+        "source": 15,
+        "target": 25
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 24
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 22
+      },
+      {
+        "source": 18,
+        "target": 25
+      },
+      {
+        "source": 18,
+        "target": 28
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 23
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 24
+      },
+      {
+        "source": 20,
+        "target": 0
+      },
+      {
+        "source": 21,
+        "target": 22
+      },
+      {
+        "source": 21,
+        "target": 25
+      },
+      {
+        "source": 21,
+        "target": 28
+      },
+      {
+        "source": 21,
+        "target": 2
+      },
+      {
+        "source": 22,
+        "target": 23
+      },
+      {
+        "source": 22,
+        "target": 26
+      },
+      {
+        "source": 22,
+        "target": 1
+      },
+      {
+        "source": 23,
+        "target": 24
+      },
+      {
+        "source": 23,
+        "target": 27
+      },
+      {
+        "source": 23,
+        "target": 3
+      },
+      {
+        "source": 24,
+        "target": 25
+      },
+      {
+        "source": 24,
+        "target": 28
+      },
+      {
+        "source": 24,
+        "target": 2
+      },
+      {
+        "source": 24,
+        "target": 5
+      },
+      {
+        "source": 25,
+        "target": 26
+      },
+      {
+        "source": 25,
+        "target": 0
+      },
+      {
+        "source": 25,
+        "target": 4
+      },
+      {
+        "source": 26,
+        "target": 27
+      },
+      {
+        "source": 26,
+        "target": 1
+      },
+      {
+        "source": 26,
+        "target": 6
+      },
+      {
+        "source": 27,
+        "target": 28
+      },
+      {
+        "source": 27,
+        "target": 2
+      },
+      {
+        "source": 27,
+        "target": 8
+      },
+      {
+        "source": 28,
+        "target": 0
+      },
+      {
+        "source": 28,
+        "target": 3
+      },
+      {
+        "source": 28,
+        "target": 7
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "06:47 AM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "06:47 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "06:48 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around BotNetwork.",
+        "time": "06:48 AM"
+      }
+    ]
+  },
+  {
+    "sessionId": "736ce2cd-218b-42de-9b42-3f11976789f2",
+    "createdAt": "2026-04-16T01:18:53.673Z",
+    "timeLeft": 180,
+    "actionPoints": 30,
+    "maxActionPoints": 30,
+    "tick": 0,
+    "panicLevel": 14,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "BotNetwork",
+        "followers": 977,
+        "credibility": 26,
+        "status": "susceptible",
+        "x": 605.8431292334587,
+        "y": 318,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 1,
+        "label": "CryptoGuru",
+        "followers": 1341,
+        "credibility": 36,
+        "status": "susceptible",
+        "x": 616.1007552077494,
+        "y": 347.84664255628456,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 2,
+        "label": "RealNews_Hub",
+        "followers": 1807,
+        "credibility": 53,
+        "status": "susceptible",
+        "x": 645.2454159295887,
+        "y": 427.73800725919057,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 3,
+        "label": "HyperFeed",
+        "followers": 1991,
+        "credibility": 61,
+        "status": "susceptible",
+        "x": 641.4176641508483,
+        "y": 464.49402990528506,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 4,
+        "label": "ShadowLedger",
+        "followers": 2737,
+        "credibility": 76,
+        "status": "infected",
+        "x": 542.4403658407389,
+        "y": 455.4217653157689,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 5,
+        "label": "InfoWars_X",
+        "followers": 2726,
+        "credibility": 81,
+        "status": "susceptible",
+        "x": 507.7186604419654,
+        "y": 507.62675169200145,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 6,
+        "label": "PolitiCheck",
+        "followers": 3625,
+        "credibility": 33,
+        "status": "susceptible",
+        "x": 489.26920941225865,
+        "y": 547.9655408130061,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 7,
+        "label": "TrustAnchor",
+        "followers": 3566,
+        "credibility": 40,
+        "status": "susceptible",
+        "x": 446.5209647632746,
+        "y": 582.8732177980577,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 8,
+        "label": "MythMachine",
+        "followers": 4217,
+        "credibility": 52,
+        "status": "susceptible",
+        "x": 363.34766795371615,
+        "y": 496.49381391796544,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 9,
+        "label": "DataDiva",
+        "followers": 4772,
+        "credibility": 62,
+        "status": "susceptible",
+        "x": 327.86088817358024,
+        "y": 537.788306243091,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 10,
+        "label": "CivicRadar",
+        "followers": 5024,
+        "credibility": 73,
+        "status": "susceptible",
+        "x": 280.13375712723484,
+        "y": 529.934930843709,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 11,
+        "label": "ViralVince",
+        "followers": 5325,
+        "credibility": 85,
+        "status": "infected",
+        "x": 203.54122252916204,
+        "y": 519.0744770257899,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 12,
+        "label": "TruthSeeker",
+        "followers": 5511,
+        "credibility": 32,
+        "status": "susceptible",
+        "x": 270.52201274932713,
+        "y": 422.4224871542409,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 13,
+        "label": "NewsBot_42",
+        "followers": 5877,
+        "credibility": 44,
+        "status": "susceptible",
+        "x": 189.85229790744697,
+        "y": 404.55672695550044,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 14,
+        "label": "ClickBait99",
+        "followers": 6357,
+        "credibility": 56,
+        "status": "susceptible",
+        "x": 134.1176853823872,
+        "y": 366.5392387406065,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 15,
+        "label": "SirenThread",
+        "followers": 6674,
+        "credibility": 67,
+        "status": "susceptible",
+        "x": 113.58152613593529,
+        "y": 300.00000000000006,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 16,
+        "label": "MediaWatch",
+        "followers": 7287,
+        "credibility": 71,
+        "status": "susceptible",
+        "x": 198.50878988630419,
+        "y": 265.2972867882011,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 17,
+        "label": "FactWave",
+        "followers": 7418,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 171.8075264219385,
+        "y": 228.97105264178202,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 18,
+        "label": "ChannelZero",
+        "followers": 7925,
+        "credibility": 35,
+        "status": "susceptible",
+        "x": 195.9028640937067,
+        "y": 161.72278311192903,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 19,
+        "label": "FactCheck_AI",
+        "followers": 8759,
+        "credibility": 44,
+        "status": "infected",
+        "x": 189.62359302168394,
+        "y": 87.45945473337471,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 20,
+        "label": "NarrativeNexus",
+        "followers": 8580,
+        "credibility": 53,
+        "status": "susceptible",
+        "x": 292.987939746842,
+        "y": 161.0945383475794,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 21,
+        "label": "Troll_Farm_7",
+        "followers": 9445,
+        "credibility": 61,
+        "status": "susceptible",
+        "x": 331.8237944991979,
+        "y": 91.01984762875395,
+        "contentId": "content-water-poison"
+      },
+      {
+        "id": 22,
+        "label": "PulsePatrol",
+        "followers": 9404,
+        "credibility": 80,
+        "status": "susceptible",
+        "x": 363.5921304225624,
+        "y": 37.231539926460584,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 23,
+        "label": "Echo_Chamber",
+        "followers": 9835,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 447.8367211756265,
+        "y": 4.093831707624986,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 24,
+        "label": "Meme_Lord",
+        "followers": 10702,
+        "credibility": 30,
+        "status": "susceptible",
+        "x": 457.8800869918264,
+        "y": 111.47499144910796,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 25,
+        "label": "EchoBloom",
+        "followers": 10622,
+        "credibility": 42,
+        "status": "infected",
+        "x": 500.70138558636654,
+        "y": 125.45572811884682,
+        "contentId": "content-cyber-drill"
+      },
+      {
+        "id": 26,
+        "label": "Verified_Sue",
+        "followers": 10920,
+        "credibility": 51,
+        "status": "susceptible",
+        "x": 554.802134329005,
+        "y": 109.30501205467036,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 27,
+        "label": "DeepFake_Dan",
+        "followers": 11503,
+        "credibility": 69,
+        "status": "susceptible",
+        "x": 620.9733944029908,
+        "y": 129.46146360046635,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 28,
+        "label": "Conspiracy_K",
+        "followers": 12162,
+        "credibility": 78,
+        "status": "susceptible",
+        "x": 584.394894900528,
+        "y": 233.1282467923749,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 29,
+        "label": "SignalSurge",
+        "followers": 12626,
+        "credibility": 26,
+        "status": "susceptible",
+        "x": 615.7112080105844,
+        "y": 254.7868369965932,
+        "contentId": "content-5g-birds"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 10
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 16
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 11,
+        "target": 20
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 22
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 13,
+        "target": 21
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 23
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 25
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 24
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 22
+      },
+      {
+        "source": 18,
+        "target": 25
+      },
+      {
+        "source": 18,
+        "target": 28
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 23
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 24
+      },
+      {
+        "source": 20,
+        "target": 29
+      },
+      {
+        "source": 21,
+        "target": 22
+      },
+      {
+        "source": 21,
+        "target": 25
+      },
+      {
+        "source": 21,
+        "target": 28
+      },
+      {
+        "source": 21,
+        "target": 1
+      },
+      {
+        "source": 22,
+        "target": 23
+      },
+      {
+        "source": 22,
+        "target": 26
+      },
+      {
+        "source": 22,
+        "target": 0
+      },
+      {
+        "source": 23,
+        "target": 24
+      },
+      {
+        "source": 23,
+        "target": 27
+      },
+      {
+        "source": 24,
+        "target": 25
+      },
+      {
+        "source": 24,
+        "target": 28
+      },
+      {
+        "source": 24,
+        "target": 1
+      },
+      {
+        "source": 24,
+        "target": 4
+      },
+      {
+        "source": 25,
+        "target": 26
+      },
+      {
+        "source": 25,
+        "target": 29
+      },
+      {
+        "source": 26,
+        "target": 27
+      },
+      {
+        "source": 26,
+        "target": 0
+      },
+      {
+        "source": 26,
+        "target": 5
+      },
+      {
+        "source": 27,
+        "target": 28
+      },
+      {
+        "source": 27,
+        "target": 1
+      },
+      {
+        "source": 27,
+        "target": 7
+      },
+      {
+        "source": 28,
+        "target": 29
+      },
+      {
+        "source": 28,
+        "target": 2
+      },
+      {
+        "source": 28,
+        "target": 6
+      },
+      {
+        "source": 29,
+        "target": 0
+      },
+      {
+        "source": 29,
+        "target": 3
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "06:48 AM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "06:48 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against SignalSurge.",
+        "time": "06:49 AM"
+      }
+    ]
+  },
+  {
+    "sessionId": "f9dd9fa9-a376-4e6f-8e75-6bcfd7a47d58",
+    "createdAt": "2026-04-16T01:19:38.636Z",
+    "timeLeft": 105,
+    "actionPoints": 30,
+    "maxActionPoints": 30,
+    "tick": 5,
+    "panicLevel": 22,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "RealNews_Hub",
+        "followers": 1050,
+        "credibility": 32,
+        "status": "recovered",
+        "x": 574.9900887407359,
+        "y": 317,
+        "contentId": "content-bank-freeze",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 1,
+        "label": "ShadowLedger",
+        "followers": 1682,
+        "credibility": 42,
+        "status": "recovered",
+        "x": 612.4037617532026,
+        "y": 353.1236051474196,
+        "contentId": "content-deepfake-ceo",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 2,
+        "label": "TrustAnchor",
+        "followers": 1680,
+        "credibility": 55,
+        "status": "infected",
+        "x": 632.23480647114,
+        "y": 407.95236888271944,
+        "contentId": "content-election-alert"
+      },
+      {
+        "id": 3,
+        "label": "PulsePatrol",
+        "followers": 2380,
+        "credibility": 58,
+        "status": "infected",
+        "x": 640.0900521101296,
+        "y": 483.0763782410002,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 4,
+        "label": "DeepFake_Dan",
+        "followers": 2413,
+        "credibility": 76,
+        "status": "flagged",
+        "x": 539.8203678767527,
+        "y": 453.7331878177972,
+        "contentId": "content-5g-birds",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 5,
+        "label": "Conspiracy_K",
+        "followers": 2817,
+        "credibility": 86,
+        "status": "recovered",
+        "x": 501.7763764082274,
+        "y": 508.1382614098552,
+        "contentId": "content-cyber-drill",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 6,
+        "label": "FactWave",
+        "followers": 3339,
+        "credibility": 26,
+        "status": "infected",
+        "x": 469.23244439993323,
+        "y": 559.852389739828,
+        "contentId": "content-cisa-framework"
+      },
+      {
+        "id": 7,
+        "label": "ViralVince",
+        "followers": 3582,
+        "credibility": 42,
+        "status": "infected",
+        "x": 414.4907138132325,
+        "y": 582.5853992342702,
+        "contentId": "content-crypto-miner"
+      },
+      {
+        "id": 8,
+        "label": "Echo_Chamber",
+        "followers": 4332,
+        "credibility": 54,
+        "status": "recovered",
+        "x": 379.0039588648688,
+        "y": 512.7639874554877,
+        "contentId": "content-water-poison",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 9,
+        "label": "Verified_Sue",
+        "followers": 4359,
+        "credibility": 61,
+        "status": "infected",
+        "x": 331.32467206007914,
+        "y": 520.5162932851567,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 10,
+        "label": "TruthSeeker",
+        "followers": 4935,
+        "credibility": 71,
+        "status": "infected",
+        "x": 276.5697631892989,
+        "y": 534.9117969993748,
+        "contentId": "content-deepfake-ceo"
+      },
+      {
+        "id": 11,
+        "label": "DataDiva",
+        "followers": 5525,
+        "credibility": 89,
+        "status": "recovered",
+        "x": 208.53761638757118,
+        "y": 538.1935819331374,
+        "contentId": "content-election-alert",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 12,
+        "label": "Troll_Farm_7",
+        "followers": 5905,
+        "credibility": 34,
+        "status": "infected",
+        "x": 249.4908667331023,
+        "y": 437.1636263956705,
+        "contentId": "content-hospital-breach"
+      },
+      {
+        "id": 13,
+        "label": "ClickBait99",
+        "followers": 5896,
+        "credibility": 38,
+        "status": "recovered",
+        "x": 209.39349774242598,
+        "y": 411.31576926448355,
+        "contentId": "content-5g-birds",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 14,
+        "label": "SirenThread",
+        "followers": 6267,
+        "credibility": 50,
+        "status": "recovered",
+        "x": 159.85508980153364,
+        "y": 370.31971578436236,
+        "contentId": "content-cyber-drill",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 15,
+        "label": "CivicRadar",
+        "followers": 6999,
+        "credibility": 64,
+        "status": "recovered",
+        "x": 98.19050645375626,
+        "y": 321.00000000000006,
+        "contentId": "content-cisa-framework",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 16,
+        "label": "HyperFeed",
+        "followers": 7551,
+        "credibility": 74,
+        "status": "recovered",
+        "x": 187.2931102714922,
+        "y": 276.18865986250427,
+        "contentId": "content-crypto-miner",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 17,
+        "label": "BotNetwork",
+        "followers": 7434,
+        "credibility": 89,
+        "status": "recovered",
+        "x": 198.41418429025563,
+        "y": 211.5697820150737,
+        "contentId": "content-water-poison",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 18,
+        "label": "InfoWars_X",
+        "followers": 8072,
+        "credibility": 28,
+        "status": "infected",
+        "x": 187.913182247614,
+        "y": 161.5506521055371,
+        "contentId": "content-bank-freeze"
+      },
+      {
+        "id": 19,
+        "label": "Meme_Lord",
+        "followers": 8362,
+        "credibility": 46,
+        "status": "recovered",
+        "x": 193.51023539906063,
+        "y": 89.32907097250072,
+        "contentId": "content-deepfake-ceo",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 20,
+        "label": "MediaWatch",
+        "followers": 8650,
+        "credibility": 51,
+        "status": "recovered",
+        "x": 320.47096138644497,
+        "y": 159.53885152311375,
+        "contentId": "content-election-alert",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 21,
+        "label": "SignalSurge",
+        "followers": 9429,
+        "credibility": 69,
+        "status": "recovered",
+        "x": 315.3526399231839,
+        "y": 111.80283355821669,
+        "contentId": "content-hospital-breach",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 22,
+        "label": "CryptoGuru",
+        "followers": 9524,
+        "credibility": 78,
+        "status": "infected",
+        "x": 387.6541031598053,
+        "y": 42.33553558903813,
+        "contentId": "content-5g-birds"
+      },
+      {
+        "id": 23,
+        "label": "NewsBot_42",
+        "followers": 10227,
+        "credibility": 85,
+        "status": "recovered",
+        "x": 432.71167868295197,
+        "y": 27.797896009417343,
+        "contentId": "content-cyber-drill",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 24,
+        "label": "MythMachine",
+        "followers": 10584,
+        "credibility": 37,
+        "status": "recovered",
+        "x": 473.46175154245964,
+        "y": 127.84017911181616,
+        "contentId": "content-cisa-framework",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 25,
+        "label": "NarrativeNexus",
+        "followers": 10932,
+        "credibility": 47,
+        "status": "recovered",
+        "x": 531.3705483456445,
+        "y": 116.70824695312467,
+        "contentId": "content-crypto-miner",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 26,
+        "label": "ChannelZero",
+        "followers": 11223,
+        "credibility": 58,
+        "status": "recovered",
+        "x": 564.1460482231925,
+        "y": 120.70183195010367,
+        "contentId": "content-water-poison",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 27,
+        "label": "EchoBloom",
+        "followers": 11334,
+        "credibility": 69,
+        "status": "recovered",
+        "x": 654.79303262297,
+        "y": 125.14745124000851,
+        "contentId": "content-bank-freeze",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 28,
+        "label": "PolitiCheck",
+        "followers": 11721,
+        "credibility": 76,
+        "status": "recovered",
+        "x": 580.8358241287706,
+        "y": 244.60330456362155,
+        "contentId": "content-deepfake-ceo",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 29,
+        "label": "FactCheck_AI",
+        "followers": 12367,
+        "credibility": 25,
+        "status": "recovered",
+        "x": 633.5680690603374,
+        "y": 259.8414702563185,
+        "contentId": "content-election-alert",
+        "resolvedByAction": "quarantine"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 10
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 5,
+        "target": 14
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 22
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 23
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 22
+      },
+      {
+        "source": 15,
+        "target": 25
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 24
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 17,
+        "target": 26
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 22
+      },
+      {
+        "source": 18,
+        "target": 25
+      },
+      {
+        "source": 18,
+        "target": 28
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 23
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 24
+      },
+      {
+        "source": 20,
+        "target": 29
+      },
+      {
+        "source": 21,
+        "target": 22
+      },
+      {
+        "source": 21,
+        "target": 25
+      },
+      {
+        "source": 21,
+        "target": 1
+      },
+      {
+        "source": 22,
+        "target": 23
+      },
+      {
+        "source": 22,
+        "target": 26
+      },
+      {
+        "source": 22,
+        "target": 0
+      },
+      {
+        "source": 23,
+        "target": 24
+      },
+      {
+        "source": 23,
+        "target": 27
+      },
+      {
+        "source": 24,
+        "target": 25
+      },
+      {
+        "source": 24,
+        "target": 28
+      },
+      {
+        "source": 24,
+        "target": 1
+      },
+      {
+        "source": 24,
+        "target": 4
+      },
+      {
+        "source": 25,
+        "target": 26
+      },
+      {
+        "source": 25,
+        "target": 29
+      },
+      {
+        "source": 26,
+        "target": 27
+      },
+      {
+        "source": 26,
+        "target": 0
+      },
+      {
+        "source": 26,
+        "target": 5
+      },
+      {
+        "source": 27,
+        "target": 28
+      },
+      {
+        "source": 27,
+        "target": 1
+      },
+      {
+        "source": 27,
+        "target": 7
+      },
+      {
+        "source": 28,
+        "target": 29
+      },
+      {
+        "source": 28,
+        "target": 2
+      },
+      {
+        "source": 28,
+        "target": 6
+      },
+      {
+        "source": 29,
+        "target": 0
+      },
+      {
+        "source": 29,
+        "target": 3
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "06:54 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around ChannelZero.",
+        "time": "06:54 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around FactCheck_AI.",
+        "time": "06:54 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around EchoBloom.",
+        "time": "06:54 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around BotNetwork.",
+        "time": "06:54 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around Meme_Lord.",
+        "time": "06:54 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around CivicRadar.",
+        "time": "06:54 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "06:54 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against DeepFake_Dan.",
+        "time": "06:54 AM"
+      }
+    ]
+  }
+]

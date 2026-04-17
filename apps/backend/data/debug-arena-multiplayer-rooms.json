@@ -1,0 +1,414 @@
+[
+  {
+    "roomCode": "GKMRU6",
+    "hostUserId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+    "createdAt": "2026-04-16T00:46:33.401Z",
+    "status": "results",
+    "players": [
+      {
+        "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+        "handle": "Atharva_Jett",
+        "avatar": "🔍",
+        "joinedAt": "2026-04-16T00:46:33.401Z"
+      },
+      {
+        "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+        "handle": "testing1233",
+        "avatar": "🕶️",
+        "joinedAt": "2026-04-16T00:48:33.862Z"
+      }
+    ],
+    "chat": [
+      {
+        "id": "66115d52-86ef-41cc-90b5-b963227d3cea",
+        "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+        "handle": "SYSTEM",
+        "message": "Atharva_Jett opened a duo debug room.",
+        "sentAt": "2026-04-16T00:46:33.409Z"
+      },
+      {
+        "id": "05a19ae3-1281-4579-8886-b43ffb02ba3f",
+        "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+        "handle": "SYSTEM",
+        "message": "testing1233 joined the debug room.",
+        "sentAt": "2026-04-16T00:48:33.862Z"
+      },
+      {
+        "id": "49ca102d-9fd8-4c4c-9232-543a95bfedc0",
+        "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+        "handle": "SYSTEM",
+        "message": "Atharva_Jett started the duo round.",
+        "sentAt": "2026-04-16T00:48:51.116Z"
+      },
+      {
+        "id": "a5867022-d3a3-4ba0-b77d-85566ea460d1",
+        "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+        "handle": "SYSTEM",
+        "message": "testing1233 submitted the duo patch for evaluation.",
+        "sentAt": "2026-04-16T00:49:10.929Z"
+      }
+    ],
+    "session": {
+      "scenarioId": "race-condition-session",
+      "code": "class SessionManager {\n  private sessions: Map<string, Session> = new Map();\n  private lock = false;\n\n  async getSession(token: string): Promise<Session> {\n    while (this.lock) {\n      await new Promise((resolve) => setTimeout(resolve, 10));\n    }\n\n    this.lock = true;\n    const session = this.sessions.get(token);\n    this.lock = false;\nsssssafafaffafafa\n    if (!session) {\n      throw new Error(\"Session not found\");\n    }\n\n    session.lastAccessed = Date.now();\n    return session;\n  }\n}",
+      "startedAt": "2026-04-16T00:48:51.116Z",
+      "durationSeconds": 90,
+      "submittedByUserId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+      "lastEditedByUserId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+      "contributions": [
+        {
+          "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+          "keystrokes": 5,
+          "editOperations": 5,
+          "tabSwitches": 0,
+          "pasteAttempts": 0,
+          "coachRequests": 0,
+          "submitted": false
+        },
+        {
+          "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+          "keystrokes": 12,
+          "editOperations": 12,
+          "tabSwitches": 0,
+          "pasteAttempts": 0,
+          "coachRequests": 0,
+          "submitted": true
+        }
+      ]
+    },
+    "result": {
+      "contained": false,
+      "score": 40,
+      "summary": "Patch rejected. Critical regression signals remain in the code path.",
+      "tests": [
+        {
+          "name": "Lock is released in a finally block",
+          "description": "The session lock should always be released, even if an error occurs.",
+          "passed": false
+        },
+        {
+          "name": "Lock is not released before null check",
+          "description": "The lock should remain active until after the session has been validated.",
+          "passed": false
+        },
+        {
+          "name": "Session timestamp is updated inside protected section",
+          "description": "The access timestamp should be updated before the lock is released.",
+          "passed": false
+        }
+      ],
+      "players": [
+        {
+          "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+          "handle": "Atharva_Jett",
+          "avatar": "🔍",
+          "contributionScore": 36,
+          "contributionPercent": 27,
+          "stats": {
+            "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+            "keystrokes": 5,
+            "editOperations": 5,
+            "tabSwitches": 0,
+            "pasteAttempts": 0,
+            "coachRequests": 0,
+            "submitted": false
+          },
+          "summary": "You participated in the final patch, but your teammate contributed more of the working solution."
+        },
+        {
+          "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+          "handle": "testing1233",
+          "avatar": "🕶️",
+          "contributionScore": 50,
+          "contributionPercent": 73,
+          "stats": {
+            "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+            "keystrokes": 12,
+            "editOperations": 12,
+            "tabSwitches": 0,
+            "pasteAttempts": 0,
+            "coachRequests": 0,
+            "submitted": true
+          },
+          "summary": "You carried the majority of the patch execution in this room."
+        }
+      ]
+    }
+  },
+  {
+    "roomCode": "8G97UZ",
+    "hostUserId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+    "createdAt": "2026-04-16T00:54:23.606Z",
+    "status": "results",
+    "players": [
+      {
+        "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+        "handle": "Atharva_Jett",
+        "avatar": "🔍",
+        "joinedAt": "2026-04-16T00:54:23.606Z"
+      },
+      {
+        "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+        "handle": "testing1233",
+        "avatar": "🕶️",
+        "joinedAt": "2026-04-16T00:56:19.733Z"
+      }
+    ],
+    "chat": [
+      {
+        "id": "eff4d58c-582b-46eb-804f-c0a28ed5a9c6",
+        "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+        "handle": "SYSTEM",
+        "message": "Atharva_Jett opened a duo debug room.",
+        "sentAt": "2026-04-16T00:54:23.611Z"
+      },
+      {
+        "id": "7dcb2579-27dd-411e-bcaa-40d0e633e1dc",
+        "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+        "handle": "SYSTEM",
+        "message": "testing1233 joined the debug room.",
+        "sentAt": "2026-04-16T00:56:19.733Z"
+      },
+      {
+        "id": "18ea8ae6-4c19-4bb2-a052-3d0fee89a902",
+        "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+        "handle": "SYSTEM",
+        "message": "Atharva_Jett started the duo round.",
+        "sentAt": "2026-04-16T00:56:27.705Z"
+      },
+      {
+        "id": "5514a2f5-959d-481d-91f9-f675412bd971",
+        "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+        "handle": "SYSTEM",
+        "message": "Atharva_Jett submitted the duo patch for evaluation.",
+        "sentAt": "2026-04-16T00:56:58.881Z"
+      }
+    ],
+    "session": {
+      "scenarioId": "race-condition-session",
+      "code": "class SessionManager {\n  private sessions: Map<string, Session> = new Map();\n  private lock = false;\n\n  async getSession(token: string): Promise<Session> {\n    while (this.lock) {\n      await new Promise((resolve) => setTimeout(resolve, 10));\n    }\n\n    this.lock = true;\n    const session = this.sessions.get(token);\n    this.lock = false;\n\n    if (!session) {\n      throw new Error(\"Session not found\");\n    }\n\n    session.lastAccessed = Date.now();\n    return session;\n    hello bro hi brooo\n  }\n}",
+      "startedAt": "2026-04-16T00:56:27.705Z",
+      "durationSeconds": 90,
+      "finishedAt": "2026-04-16T00:56:58.868Z",
+      "elapsedSeconds": 31,
+      "submittedByUserId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+      "lastEditedByUserId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+      "contributions": [
+        {
+          "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+          "keystrokes": 10,
+          "editOperations": 10,
+          "tabSwitches": 0,
+          "pasteAttempts": 0,
+          "coachRequests": 0,
+          "submitted": true
+        },
+        {
+          "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+          "keystrokes": 9,
+          "editOperations": 9,
+          "tabSwitches": 0,
+          "pasteAttempts": 0,
+          "coachRequests": 0,
+          "submitted": false
+        }
+      ]
+    },
+    "result": {
+      "contained": false,
+      "score": 40,
+      "summary": "Patch rejected. Critical regression signals remain in the code path.",
+      "tests": [
+        {
+          "name": "Lock is released in a finally block",
+          "description": "The session lock should always be released, even if an error occurs.",
+          "passed": false
+        },
+        {
+          "name": "Lock is not released before null check",
+          "description": "The lock should remain active until after the session has been validated.",
+          "passed": false
+        },
+        {
+          "name": "Session timestamp is updated inside protected section",
+          "description": "The access timestamp should be updated before the lock is released.",
+          "passed": false
+        }
+      ],
+      "players": [
+        {
+          "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+          "handle": "Atharva_Jett",
+          "avatar": "🔍",
+          "contributionScore": 45,
+          "contributionPercent": 56,
+          "stats": {
+            "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+            "keystrokes": 10,
+            "editOperations": 10,
+            "tabSwitches": 0,
+            "pasteAttempts": 0,
+            "coachRequests": 0,
+            "submitted": true
+          },
+          "summary": "You carried the majority of the patch execution in this room."
+        },
+        {
+          "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+          "handle": "testing1233",
+          "avatar": "🕶️",
+          "contributionScore": 41,
+          "contributionPercent": 44,
+          "stats": {
+            "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+            "keystrokes": 9,
+            "editOperations": 9,
+            "tabSwitches": 0,
+            "pasteAttempts": 0,
+            "coachRequests": 0,
+            "submitted": false
+          },
+          "summary": "You made a solid contribution to the final patch."
+        }
+      ]
+    }
+  },
+  {
+    "roomCode": "E7G616",
+    "hostUserId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+    "createdAt": "2026-04-16T01:00:43.586Z",
+    "status": "results",
+    "players": [
+      {
+        "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+        "handle": "Atharva_Jett",
+        "avatar": "🔍",
+        "joinedAt": "2026-04-16T01:00:43.585Z"
+      },
+      {
+        "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+        "handle": "testing1233",
+        "avatar": "🕶️",
+        "joinedAt": "2026-04-16T01:01:17.762Z"
+      }
+    ],
+    "chat": [
+      {
+        "id": "f6280709-7ee2-46c1-9e33-01552bf66ca1",
+        "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+        "handle": "SYSTEM",
+        "message": "Atharva_Jett opened a duo debug room.",
+        "sentAt": "2026-04-16T01:00:43.590Z"
+      },
+      {
+        "id": "6b21186b-34a6-4813-a0f3-f8d38554dc96",
+        "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+        "handle": "SYSTEM",
+        "message": "testing1233 joined the debug room.",
+        "sentAt": "2026-04-16T01:01:17.762Z"
+      },
+      {
+        "id": "8f5bac52-a18e-45b2-8991-cc849b4b5d05",
+        "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+        "handle": "SYSTEM",
+        "message": "Atharva_Jett started the duo round.",
+        "sentAt": "2026-04-16T01:01:59.375Z"
+      },
+      {
+        "id": "17e36d19-6b68-442f-a1d9-ac56f5eb8ba1",
+        "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+        "handle": "SYSTEM",
+        "message": "Atharva_Jett submitted the duo patch for evaluation.",
+        "sentAt": "2026-04-16T01:02:05.506Z"
+      }
+    ],
+    "session": {
+      "scenarioId": "race-condition-session",
+      "code": "class SessionManager {\n  private sessions: Map<string, Session> = new Map();\n  private lock = false;\n\n  async getSession(token: string): Promise<Session> {\n    while (this.lock) {\n      await new Promise((resolve) => setTimeout(resolve, 10));\n    }\n\n    this.lock = true;\n    const session = this.sessions.get(token);\n    this.lock = false;\n\n    if (!session) {\n      throw new Error(\"Session not found\");\n    }\nsafasfasfafasfasfas\n    session.lastAccessed = Date.now();\n    return session;\n  }\n}",
+      "startedAt": "2026-04-16T01:01:59.375Z",
+      "durationSeconds": 90,
+      "finishedAt": "2026-04-16T01:02:05.488Z",
+      "elapsedSeconds": 6,
+      "submittedByUserId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+      "lastEditedByUserId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+      "contributions": [
+        {
+          "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+          "keystrokes": 19,
+          "editOperations": 19,
+          "tabSwitches": 0,
+          "pasteAttempts": 0,
+          "coachRequests": 0,
+          "submitted": true
+        },
+        {
+          "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+          "keystrokes": 0,
+          "editOperations": 0,
+          "tabSwitches": 0,
+          "pasteAttempts": 0,
+          "coachRequests": 0,
+          "submitted": false
+        }
+      ]
+    },
+    "result": {
+      "contained": false,
+      "score": 40,
+      "summary": "Patch rejected. Critical regression signals remain in the code path.",
+      "tests": [
+        {
+          "name": "Lock is released in a finally block",
+          "description": "The session lock should always be released, even if an error occurs.",
+          "passed": false
+        },
+        {
+          "name": "Lock is not released before null check",
+          "description": "The lock should remain active until after the session has been validated.",
+          "passed": false
+        },
+        {
+          "name": "Session timestamp is updated inside protected section",
+          "description": "The access timestamp should be updated before the lock is released.",
+          "passed": false
+        }
+      ],
+      "players": [
+        {
+          "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+          "handle": "Atharva_Jett",
+          "avatar": "🔍",
+          "contributionScore": 58,
+          "contributionPercent": 100,
+          "stats": {
+            "userId": "4323dd3b-a98e-4d2f-be26-ea7d3e845afe",
+            "keystrokes": 19,
+            "editOperations": 19,
+            "tabSwitches": 0,
+            "pasteAttempts": 0,
+            "coachRequests": 0,
+            "submitted": true
+          },
+          "summary": "You carried the majority of the patch execution in this room."
+        },
+        {
+          "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+          "handle": "testing1233",
+          "avatar": "🕶️",
+          "contributionScore": 28,
+          "contributionPercent": 0,
+          "stats": {
+            "userId": "50d87f2d-372c-4da0-a59f-78eb5b13dc87",
+            "keystrokes": 0,
+            "editOperations": 0,
+            "tabSwitches": 0,
+            "pasteAttempts": 0,
+            "coachRequests": 0,
+            "submitted": false
+          },
+          "summary": "You participated in the final patch, but your teammate contributed more of the working solution."
+        }
+      ]
+    }
+  }
+]

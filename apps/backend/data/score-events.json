@@ -1,0 +1,72 @@
+[
+  {
+    "id": "331c8003-e9b1-4aa3-a94f-a3569ad5538b",
+    "createdAt": "2026-04-15T12:14:49.632Z",
+    "userId": "41e11011-9504-447d-bd2e-00c78eb3f395",
+    "sourceId": "debug-arena:40cc3b40-36cf-4ef8-9950-296acdb0096d",
+    "mode": "debug-arena",
+    "score": 21,
+    "pointsDelta": -10,
+    "won": false
+  },
+  {
+    "id": "8a21a2d4-7433-42b5-8cc2-28f55e98cee8",
+    "createdAt": "2026-04-15T12:17:06.531Z",
+    "userId": "41e11011-9504-447d-bd2e-00c78eb3f395",
+    "sourceId": "debug-arena:802c5baa-6dbc-4650-9c60-702155fce645",
+    "mode": "debug-arena",
+    "score": 19,
+    "pointsDelta": -10,
+    "won": false
+  },
+  {
+    "id": "17b3404d-2161-47aa-9297-dfa64cc41624",
+    "createdAt": "2026-04-15T12:21:52.369Z",
+    "userId": "41e11011-9504-447d-bd2e-00c78eb3f395",
+    "sourceId": "debug-arena:f9698a89-5695-42fb-bf77-b4fc0cedfe24",
+    "mode": "debug-arena",
+    "score": 10,
+    "pointsDelta": -11,
+    "won": false
+  },
+  {
+    "id": "f7e4284d-fae9-4950-907b-827e3fcb4287",
+    "createdAt": "2026-04-15T12:22:24.478Z",
+    "userId": "41e11011-9504-447d-bd2e-00c78eb3f395",
+    "sourceId": "debug-arena:5eab3d08-e018-45e3-9eb9-09dd92bf1cd7",
+    "mode": "debug-arena",
+    "score": 52,
+    "pointsDelta": -8,
+    "won": false
+  },
+  {
+    "id": "a9199388-c2ce-417b-b7de-b3f2c407d1e5",
+    "createdAt": "2026-04-15T12:24:42.027Z",
+    "userId": "41e11011-9504-447d-bd2e-00c78eb3f395",
+    "sourceId": "debug-arena:0f522d80-5f44-44c1-aaf4-48550d2d2bf6",
+    "mode": "debug-arena",
+    "score": 69,
+    "pointsDelta": 14,
+    "won": true
+  },
+  {
+    "id": "0828c894-e78e-4d60-b0f2-f0f83941f662",
+    "createdAt": "2026-04-15T12:29:15.546Z",
+    "userId": "9bec5aa6-3856-40de-a969-c2a26a8fd87f",
+    "sourceId": "debug-arena:d1107fb1-e71d-41ef-b4ab-53eaf0c7cbd5",
+    "mode": "debug-arena",
+    "score": 53,
+    "pointsDelta": 0,
+    "won": false
+  },
+  {
+    "id": "0f834b16-dd4c-4fc4-99c9-6d70114b35d8",
+    "createdAt": "2026-04-15T12:30:45.654Z",
+    "userId": "9bec5aa6-3856-40de-a969-c2a26a8fd87f",
+    "sourceId": "debug-arena:49ef8614-8991-4d05-9a00-11b8ae5b9e2c",
+    "mode": "debug-arena",
+    "score": 93,
+    "pointsDelta": 14,
+    "won": true
+  }
+]

@@ -1,0 +1,4651 @@
+[
+  {
+    "sessionId": "371900a6-7fcd-4a6b-8e0c-4e2785d1322b",
+    "createdAt": "2026-04-16T02:12:24.521Z",
+    "timeLeft": 0,
+    "actionPoints": 26,
+    "maxActionPoints": 26,
+    "tick": 12,
+    "panicLevel": 21,
+    "panicPenalty": 14,
+    "chatbotQuestionsUsed": 1,
+    "chatbotQuestionLimit": 5,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "CryptoGuru",
+        "followers": 909,
+        "credibility": 93,
+        "status": "susceptible",
+        "x": 578.1846894702226,
+        "y": 318,
+        "contentId": "multi-31"
+      },
+      {
+        "id": 1,
+        "label": "TrustAnchor",
+        "followers": 1538,
+        "credibility": 32,
+        "status": "infected",
+        "x": 624.7455015389817,
+        "y": 365.91592376718637,
+        "contentId": "multi-324"
+      },
+      {
+        "id": 2,
+        "label": "Troll_Farm_7",
+        "followers": 1791,
+        "credibility": 87,
+        "status": "susceptible",
+        "x": 641.3203708046512,
+        "y": 427.2572532262896,
+        "contentId": "solo-19"
+      },
+      {
+        "id": 3,
+        "label": "ClickBait99",
+        "followers": 2012,
+        "credibility": 97,
+        "status": "susceptible",
+        "x": 617.2863549744092,
+        "y": 480.18337672902885,
+        "contentId": "solo-20"
+      },
+      {
+        "id": 4,
+        "label": "ChannelZero",
+        "followers": 2341,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 515.3537786276244,
+        "y": 480.08004878145334,
+        "contentId": "multi-49"
+      },
+      {
+        "id": 5,
+        "label": "NewsBot_42",
+        "followers": 2836,
+        "credibility": 92,
+        "status": "susceptible",
+        "x": 485.4277836445164,
+        "y": 499.52350323219775,
+        "contentId": "multi-33"
+      },
+      {
+        "id": 6,
+        "label": "Echo_Chamber",
+        "followers": 2953,
+        "credibility": 83,
+        "status": "susceptible",
+        "x": 424.8930789804906,
+        "y": 557.1916548156848,
+        "contentId": "solo-26"
+      },
+      {
+        "id": 7,
+        "label": "SignalSurge",
+        "followers": 3313,
+        "credibility": 79,
+        "status": "susceptible",
+        "x": 374.7503399706146,
+        "y": 575.0713277816599,
+        "contentId": "solo-87"
+      },
+      {
+        "id": 8,
+        "label": "DataDiva",
+        "followers": 4045,
+        "credibility": 19,
+        "status": "infected",
+        "x": 323.75632996465106,
+        "y": 482.0334192916562,
+        "contentId": "solo-103"
+      },
+      {
+        "id": 9,
+        "label": "NarrativeNexus",
+        "followers": 4373,
+        "credibility": 50,
+        "status": "infected",
+        "x": 271.6077754515986,
+        "y": 479.1107495691345,
+        "contentId": "multi-320"
+      },
+      {
+        "id": 10,
+        "label": "ViralVince",
+        "followers": 4409,
+        "credibility": 38,
+        "status": "infected",
+        "x": 211.11616210416662,
+        "y": 478.13501959888026,
+        "contentId": "solo-133"
+      },
+      {
+        "id": 11,
+        "label": "BotNetwork",
+        "followers": 5011,
+        "credibility": 91,
+        "status": "susceptible",
+        "x": 154.90498917811638,
+        "y": 428.06126346829996,
+        "contentId": "solo-60"
+      },
+      {
+        "id": 12,
+        "label": "Verified_Sue",
+        "followers": 5400,
+        "credibility": 83,
+        "status": "susceptible",
+        "x": 205.46072292816385,
+        "y": 370.9918909320682,
+        "contentId": "solo-27"
+      },
+      {
+        "id": 13,
+        "label": "PulsePatrol",
+        "followers": 5545,
+        "credibility": 94,
+        "status": "susceptible",
+        "x": 193.5543016047681,
+        "y": 299,
+        "contentId": "solo-39"
+      },
+      {
+        "id": 14,
+        "label": "Meme_Lord",
+        "followers": 5809,
+        "credibility": 83,
+        "status": "susceptible",
+        "x": 160.37823246375206,
+        "y": 257.70614948656055,
+        "contentId": "multi-29"
+      },
+      {
+        "id": 15,
+        "label": "EchoBloom",
+        "followers": 6374,
+        "credibility": 96,
+        "status": "susceptible",
+        "x": 145.24126126266046,
+        "y": 175.4910232996164,
+        "contentId": "multi-118"
+      },
+      {
+        "id": 16,
+        "label": "Conspiracy_K",
+        "followers": 6552,
+        "credibility": 41,
+        "status": "recovered",
+        "x": 271.3562616962984,
+        "y": 188.8301339861212,
+        "contentId": "multi-213",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 17,
+        "label": "CivicRadar",
+        "followers": 6689,
+        "credibility": 41,
+        "status": "recovered",
+        "x": 286.7056089072684,
+        "y": 121.47973677358189,
+        "contentId": "multi-297",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 18,
+        "label": "MediaWatch",
+        "followers": 7069,
+        "credibility": 87,
+        "status": "susceptible",
+        "x": 323.54037431684173,
+        "y": 70.66148655197861,
+        "contentId": "solo-5"
+      },
+      {
+        "id": 19,
+        "label": "MythMachine",
+        "followers": 7807,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 351.85840372608027,
+        "y": 33.054398269425974,
+        "contentId": "solo-10"
+      },
+      {
+        "id": 20,
+        "label": "DeepFake_Dan",
+        "followers": 7725,
+        "credibility": 79,
+        "status": "susceptible",
+        "x": 425.88628405881997,
+        "y": 122.75023403498889,
+        "contentId": "solo-24"
+      },
+      {
+        "id": 21,
+        "label": "SirenThread",
+        "followers": 8337,
+        "credibility": 22,
+        "status": "recovered",
+        "x": 462.8345851029346,
+        "y": 97.04063277320861,
+        "contentId": "solo-118",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 22,
+        "label": "TruthSeeker",
+        "followers": 8582,
+        "credibility": 87,
+        "status": "recovered",
+        "x": 531.2002502363036,
+        "y": 98.23112199657726,
+        "contentId": "multi-53",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 23,
+        "label": "ShadowLedger",
+        "followers": 8959,
+        "credibility": 91,
+        "status": "recovered",
+        "x": 621.4512373529287,
+        "y": 109.44239561734548,
+        "contentId": "multi-52",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 24,
+        "label": "FactCheck_AI",
+        "followers": 9251,
+        "credibility": 41,
+        "status": "recovered",
+        "x": 583.1672336016109,
+        "y": 236.16450569567712,
+        "contentId": "multi-328",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 25,
+        "label": "FactWave",
+        "followers": 9531,
+        "credibility": 86,
+        "status": "susceptible",
+        "x": 617.8713429082146,
+        "y": 267.76431561439585,
+        "contentId": "multi-27"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 1,
+        "target": 9
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 7,
+        "target": 15
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 16
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 22
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 13,
+        "target": 21
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 23
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 22
+      },
+      {
+        "source": 15,
+        "target": 25
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 24
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 17,
+        "target": 0
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 22
+      },
+      {
+        "source": 18,
+        "target": 25
+      },
+      {
+        "source": 18,
+        "target": 2
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 23
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 24
+      },
+      {
+        "source": 20,
+        "target": 3
+      },
+      {
+        "source": 21,
+        "target": 22
+      },
+      {
+        "source": 21,
+        "target": 25
+      },
+      {
+        "source": 21,
+        "target": 5
+      },
+      {
+        "source": 22,
+        "target": 23
+      },
+      {
+        "source": 22,
+        "target": 0
+      },
+      {
+        "source": 22,
+        "target": 4
+      },
+      {
+        "source": 23,
+        "target": 24
+      },
+      {
+        "source": 23,
+        "target": 1
+      },
+      {
+        "source": 24,
+        "target": 25
+      },
+      {
+        "source": 24,
+        "target": 2
+      },
+      {
+        "source": 24,
+        "target": 5
+      },
+      {
+        "source": 24,
+        "target": 8
+      },
+      {
+        "source": 25,
+        "target": 0
+      },
+      {
+        "source": 25,
+        "target": 3
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:45 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:45 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:45 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against Conspiracy_K.",
+        "time": "07:45 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against CivicRadar.",
+        "time": "07:46 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:46 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:46 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:46 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:47 AM"
+      }
+    ]
+  },
+  {
+    "sessionId": "a1f4567f-2511-47b0-9451-0e091ffa9ca1",
+    "createdAt": "2026-04-16T02:20:59.384Z",
+    "timeLeft": 0,
+    "actionPoints": 22,
+    "maxActionPoints": 22,
+    "tick": 12,
+    "panicLevel": 24,
+    "panicPenalty": 0,
+    "chatbotQuestionsUsed": 1,
+    "chatbotQuestionLimit": 5,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "MythMachine",
+        "followers": 1302,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 581.8302437225193,
+        "y": 325,
+        "contentId": "solo-15"
+      },
+      {
+        "id": 1,
+        "label": "TruthSeeker",
+        "followers": 1622,
+        "credibility": 94,
+        "status": "susceptible",
+        "x": 621.354192579248,
+        "y": 373.5910578701729,
+        "contentId": "solo-92"
+      },
+      {
+        "id": 2,
+        "label": "Conspiracy_K",
+        "followers": 1965,
+        "credibility": 93,
+        "status": "susceptible",
+        "x": 606.1516042026656,
+        "y": 449.2002694473674,
+        "contentId": "multi-77"
+      },
+      {
+        "id": 3,
+        "label": "CivicRadar",
+        "followers": 1956,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 584.7764623292408,
+        "y": 529.7812205127949,
+        "contentId": "solo-22"
+      },
+      {
+        "id": 4,
+        "label": "DeepFake_Dan",
+        "followers": 2659,
+        "credibility": 80,
+        "status": "susceptible",
+        "x": 491.98753853453934,
+        "y": 473.3894999840496,
+        "contentId": "solo-83"
+      },
+      {
+        "id": 5,
+        "label": "Echo_Chamber",
+        "followers": 2633,
+        "credibility": 46,
+        "status": "susceptible",
+        "x": 434.5972300340643,
+        "y": 507.8084092800127,
+        "contentId": "multi-227"
+      },
+      {
+        "id": 6,
+        "label": "MediaWatch",
+        "followers": 3141,
+        "credibility": 81,
+        "status": "susceptible",
+        "x": 358.9219988097407,
+        "y": 563.9728572067052,
+        "contentId": "multi-69"
+      },
+      {
+        "id": 7,
+        "label": "BotNetwork",
+        "followers": 3455,
+        "credibility": 86,
+        "status": "susceptible",
+        "x": 301.7861623225291,
+        "y": 570.0934193805442,
+        "contentId": "solo-94"
+      },
+      {
+        "id": 8,
+        "label": "ShadowLedger",
+        "followers": 3772,
+        "credibility": 78,
+        "status": "susceptible",
+        "x": 261.10603450292797,
+        "y": 464.9812582064152,
+        "contentId": "solo-29"
+      },
+      {
+        "id": 9,
+        "label": "Verified_Sue",
+        "followers": 3997,
+        "credibility": 97,
+        "status": "susceptible",
+        "x": 191.7342184906203,
+        "y": 417.9190540436824,
+        "contentId": "multi-52"
+      },
+      {
+        "id": 10,
+        "label": "FactCheck_AI",
+        "followers": 4450,
+        "credibility": 25,
+        "status": "infected",
+        "x": 171.41005213177507,
+        "y": 378.469076657018,
+        "contentId": "multi-390"
+      },
+      {
+        "id": 11,
+        "label": "RealNews_Hub",
+        "followers": 4765,
+        "credibility": 42,
+        "status": "infected",
+        "x": 133.48535326850737,
+        "y": 317.00000000000006,
+        "contentId": "multi-343"
+      },
+      {
+        "id": 12,
+        "label": "HyperFeed",
+        "followers": 5326,
+        "credibility": 96,
+        "status": "susceptible",
+        "x": 221.68641678235213,
+        "y": 264.34878142359014,
+        "contentId": "multi-87"
+      },
+      {
+        "id": 13,
+        "label": "ViralVince",
+        "followers": 5546,
+        "credibility": 34,
+        "status": "infected",
+        "x": 230.4005986130782,
+        "y": 203.9358122286652,
+        "contentId": "solo-139"
+      },
+      {
+        "id": 14,
+        "label": "PolitiCheck",
+        "followers": 5784,
+        "credibility": 84,
+        "status": "susceptible",
+        "x": 248.64888888444696,
+        "y": 112.94495288682737,
+        "contentId": "multi-90"
+      },
+      {
+        "id": 15,
+        "label": "SignalSurge",
+        "followers": 6115,
+        "credibility": 44,
+        "status": "infected",
+        "x": 283.8241143123157,
+        "y": 51.36907301112626,
+        "contentId": "multi-277"
+      },
+      {
+        "id": 16,
+        "label": "PulsePatrol",
+        "followers": 6364,
+        "credibility": 50,
+        "status": "infected",
+        "x": 383.5957651043006,
+        "y": 135.35451247861843,
+        "contentId": "multi-208"
+      },
+      {
+        "id": 17,
+        "label": "InfoWars_X",
+        "followers": 6805,
+        "credibility": 96,
+        "status": "susceptible",
+        "x": 424.78460599449073,
+        "y": 81.88836228946295,
+        "contentId": "multi-39"
+      },
+      {
+        "id": 18,
+        "label": "ChannelZero",
+        "followers": 7171,
+        "credibility": 27,
+        "status": "infected",
+        "x": 485.1432443155434,
+        "y": 72.5271878391178,
+        "contentId": "multi-248"
+      },
+      {
+        "id": 19,
+        "label": "TrustAnchor",
+        "followers": 7494,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 569.0165213089293,
+        "y": 115.24985969715422,
+        "contentId": "multi-75"
+      },
+      {
+        "id": 20,
+        "label": "ClickBait99",
+        "followers": 7893,
+        "credibility": 80,
+        "status": "susceptible",
+        "x": 562.9300613104642,
+        "y": 193.50451247396245,
+        "contentId": "solo-4"
+      },
+      {
+        "id": 21,
+        "label": "NewsBot_42",
+        "followers": 8267,
+        "credibility": 91,
+        "status": "susceptible",
+        "x": 609.2629799835219,
+        "y": 257.7293510573603,
+        "contentId": "multi-117"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 10
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 5,
+        "target": 14
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 0
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 13,
+        "target": 21
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 1
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 3
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 2
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 0
+      },
+      {
+        "source": 18,
+        "target": 3
+      },
+      {
+        "source": 18,
+        "target": 6
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 1
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 2
+      },
+      {
+        "source": 20,
+        "target": 7
+      },
+      {
+        "source": 21,
+        "target": 0
+      },
+      {
+        "source": 21,
+        "target": 3
+      },
+      {
+        "source": 21,
+        "target": 9
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:52 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:53 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:53 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:53 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:53 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:54 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:54 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:54 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "07:54 AM"
+      }
+    ]
+  },
+  {
+    "sessionId": "1ed5204f-966d-4a5b-af43-ec7770b60442",
+    "createdAt": "2026-04-16T03:46:18.129Z",
+    "timeLeft": 180,
+    "actionPoints": 22,
+    "maxActionPoints": 22,
+    "tick": 0,
+    "panicLevel": 3,
+    "panicPenalty": 0,
+    "chatbotQuestionsUsed": 0,
+    "chatbotQuestionLimit": 5,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "RealNews_Hub",
+        "followers": 1168,
+        "credibility": 84,
+        "status": "susceptible",
+        "x": 598.0950185426999,
+        "y": 306,
+        "contentId": "multi-53"
+      },
+      {
+        "id": 1,
+        "label": "SignalSurge",
+        "followers": 1395,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 619.5518017936511,
+        "y": 371.06182818489367,
+        "contentId": "solo-64"
+      },
+      {
+        "id": 2,
+        "label": "Echo_Chamber",
+        "followers": 1656,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 601.97130653129,
+        "y": 450.22568698704663,
+        "contentId": "multi-89"
+      },
+      {
+        "id": 3,
+        "label": "NarrativeNexus",
+        "followers": 2104,
+        "credibility": 41,
+        "status": "recovered",
+        "x": 594.7405783638643,
+        "y": 519.8938697296828,
+        "contentId": "multi-260",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 4,
+        "label": "DataDiva",
+        "followers": 2523,
+        "credibility": 84,
+        "status": "susceptible",
+        "x": 492.812994874441,
+        "y": 488.1969972435178,
+        "contentId": "solo-3"
+      },
+      {
+        "id": 5,
+        "label": "FactCheck_AI",
+        "followers": 3057,
+        "credibility": 39,
+        "status": "susceptible",
+        "x": 444.19441610828073,
+        "y": 519.0067768875899,
+        "contentId": "multi-323"
+      },
+      {
+        "id": 6,
+        "label": "Troll_Farm_7",
+        "followers": 3281,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 375.51296375145563,
+        "y": 554.8626057543157,
+        "contentId": "multi-26"
+      },
+      {
+        "id": 7,
+        "label": "TruthSeeker",
+        "followers": 3749,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 291.0096141320655,
+        "y": 574.3629064200707,
+        "contentId": "solo-53"
+      },
+      {
+        "id": 8,
+        "label": "MythMachine",
+        "followers": 3757,
+        "credibility": 91,
+        "status": "susceptible",
+        "x": 291.6342054466086,
+        "y": 433.9095318824508,
+        "contentId": "solo-6"
+      },
+      {
+        "id": 9,
+        "label": "Meme_Lord",
+        "followers": 4077,
+        "credibility": 95,
+        "status": "susceptible",
+        "x": 206.4711254789426,
+        "y": 415.30418486113837,
+        "contentId": "multi-71"
+      },
+      {
+        "id": 10,
+        "label": "HyperFeed",
+        "followers": 4726,
+        "credibility": 42,
+        "status": "flagged",
+        "x": 178.88654994367562,
+        "y": 377.15465830386336,
+        "contentId": "multi-229",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 11,
+        "label": "CryptoGuru",
+        "followers": 4727,
+        "credibility": 95,
+        "status": "susceptible",
+        "x": 106.72859363128356,
+        "y": 298.00000000000006,
+        "contentId": "multi-31"
+      },
+      {
+        "id": 12,
+        "label": "PulsePatrol",
+        "followers": 5316,
+        "credibility": 85,
+        "status": "susceptible",
+        "x": 217.4397416118373,
+        "y": 263.6890980725002,
+        "contentId": "solo-8"
+      },
+      {
+        "id": 13,
+        "label": "EchoBloom",
+        "followers": 5534,
+        "credibility": 50,
+        "status": "recovered",
+        "x": 227.13715936604294,
+        "y": 189.83852717323606,
+        "contentId": "multi-207",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 14,
+        "label": "NewsBot_42",
+        "followers": 6075,
+        "credibility": 28,
+        "status": "flagged",
+        "x": 232.8395628158978,
+        "y": 116.77844864928647,
+        "contentId": "multi-392",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 15,
+        "label": "FactWave",
+        "followers": 6138,
+        "credibility": 26,
+        "status": "recovered",
+        "x": 290.5837463186128,
+        "y": 40.32518401828082,
+        "contentId": "multi-232",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 16,
+        "label": "CivicRadar",
+        "followers": 6639,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 374.12605801437,
+        "y": 123.04278068193986,
+        "contentId": "solo-40"
+      },
+      {
+        "id": 17,
+        "label": "InfoWars_X",
+        "followers": 7119,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 443.5968845850276,
+        "y": 94.28368782726449,
+        "contentId": "solo-47"
+      },
+      {
+        "id": 18,
+        "label": "SirenThread",
+        "followers": 7231,
+        "credibility": 18,
+        "status": "susceptible",
+        "x": 488.6905031826134,
+        "y": 100.51855263633655,
+        "contentId": "solo-113"
+      },
+      {
+        "id": 19,
+        "label": "TrustAnchor",
+        "followers": 7653,
+        "credibility": 80,
+        "status": "susceptible",
+        "x": 590.0778597380336,
+        "y": 81.56282529426304,
+        "contentId": "solo-44"
+      },
+      {
+        "id": 20,
+        "label": "PolitiCheck",
+        "followers": 7747,
+        "credibility": 98,
+        "status": "susceptible",
+        "x": 549.3364486429881,
+        "y": 196.74471635355553,
+        "contentId": "multi-51"
+      },
+      {
+        "id": 21,
+        "label": "Conspiracy_K",
+        "followers": 8460,
+        "credibility": 94,
+        "status": "susceptible",
+        "x": 616.9456850195669,
+        "y": 251.64801129309993,
+        "contentId": "multi-50"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 10
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 11,
+        "target": 20
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 0
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 13,
+        "target": 21
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 1
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 3
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 2
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 0
+      },
+      {
+        "source": 18,
+        "target": 3
+      },
+      {
+        "source": 18,
+        "target": 6
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 1
+      },
+      {
+        "source": 19,
+        "target": 5
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 2
+      },
+      {
+        "source": 20,
+        "target": 7
+      },
+      {
+        "source": 21,
+        "target": 0
+      },
+      {
+        "source": 21,
+        "target": 3
+      },
+      {
+        "source": 21,
+        "target": 9
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "09:16 AM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "09:16 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around EchoBloom.",
+        "time": "09:16 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against NewsBot_42.",
+        "time": "09:16 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against HyperFeed.",
+        "time": "09:16 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around NarrativeNexus.",
+        "time": "09:17 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around FactWave.",
+        "time": "09:17 AM"
+      }
+    ]
+  },
+  {
+    "sessionId": "6195c30e-b384-49bb-a10b-b0675f59a8f6",
+    "createdAt": "2026-04-16T03:47:37.639Z",
+    "timeLeft": 180,
+    "actionPoints": 24,
+    "maxActionPoints": 24,
+    "tick": 0,
+    "panicLevel": 3,
+    "panicPenalty": 0,
+    "chatbotQuestionsUsed": 0,
+    "chatbotQuestionLimit": 5,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "EchoBloom",
+        "followers": 1056,
+        "credibility": 26,
+        "status": "susceptible",
+        "x": 589.7320237517388,
+        "y": 305,
+        "contentId": "multi-232"
+      },
+      {
+        "id": 1,
+        "label": "Conspiracy_K",
+        "followers": 1374,
+        "credibility": 83,
+        "status": "susceptible",
+        "x": 634.1761310364666,
+        "y": 372.2639656962614,
+        "contentId": "solo-96"
+      },
+      {
+        "id": 2,
+        "label": "BotNetwork",
+        "followers": 1768,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 622.4669891062163,
+        "y": 444.51317281600393,
+        "contentId": "multi-38"
+      },
+      {
+        "id": 3,
+        "label": "RealNews_Hub",
+        "followers": 1927,
+        "credibility": 95,
+        "status": "susceptible",
+        "x": 612.0509349103013,
+        "y": 500.0509349103013,
+        "contentId": "solo-99"
+      },
+      {
+        "id": 4,
+        "label": "NarrativeNexus",
+        "followers": 2604,
+        "credibility": 91,
+        "status": "susceptible",
+        "x": 493.4080266809061,
+        "y": 477.5194988536475,
+        "contentId": "solo-74"
+      },
+      {
+        "id": 5,
+        "label": "InfoWars_X",
+        "followers": 2891,
+        "credibility": 28,
+        "status": "flagged",
+        "x": 456.24229940154976,
+        "y": 546.095271323791,
+        "contentId": "multi-265",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 6,
+        "label": "PolitiCheck",
+        "followers": 3115,
+        "credibility": 41,
+        "status": "flagged",
+        "x": 383,
+        "y": 548.2354682833411,
+        "contentId": "multi-286",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 7,
+        "label": "CivicRadar",
+        "followers": 3388,
+        "credibility": 45,
+        "status": "flagged",
+        "x": 333.5389126217698,
+        "y": 582.1605104748119,
+        "contentId": "multi-207",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 8,
+        "label": "MediaWatch",
+        "followers": 3820,
+        "credibility": 92,
+        "status": "susceptible",
+        "x": 308.7464536426816,
+        "y": 451.05577866171734,
+        "contentId": "solo-46"
+      },
+      {
+        "id": 9,
+        "label": "Verified_Sue",
+        "followers": 4150,
+        "credibility": 85,
+        "status": "susceptible",
+        "x": 235.25957686168576,
+        "y": 475.74042313831427,
+        "contentId": "multi-29"
+      },
+      {
+        "id": 10,
+        "label": "DeepFake_Dan",
+        "followers": 4758,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 184.79734856647548,
+        "y": 419.97935954303546,
+        "contentId": "multi-83"
+      },
+      {
+        "id": 11,
+        "label": "MythMachine",
+        "followers": 4998,
+        "credibility": 98,
+        "status": "susceptible",
+        "x": 122.4843273082264,
+        "y": 374.2883036150161,
+        "contentId": "multi-55"
+      },
+      {
+        "id": 12,
+        "label": "ViralVince",
+        "followers": 5405,
+        "credibility": 86,
+        "status": "susceptible",
+        "x": 193.32798808476792,
+        "y": 308,
+        "contentId": "solo-37"
+      },
+      {
+        "id": 13,
+        "label": "ChannelZero",
+        "followers": 5340,
+        "credibility": 85,
+        "status": "susceptible",
+        "x": 192.11296802076262,
+        "y": 252.95709170210483,
+        "contentId": "solo-13"
+      },
+      {
+        "id": 14,
+        "label": "ClickBait99",
+        "followers": 6088,
+        "credibility": 87,
+        "status": "susceptible",
+        "x": 193.45814379910857,
+        "y": 180.02095291592144,
+        "contentId": "solo-84"
+      },
+      {
+        "id": 15,
+        "label": "TruthSeeker",
+        "followers": 6194,
+        "credibility": 85,
+        "status": "susceptible",
+        "x": 205.44817176202142,
+        "y": 111.4481717620215,
+        "contentId": "solo-87"
+      },
+      {
+        "id": 16,
+        "label": "CryptoGuru",
+        "followers": 6490,
+        "credibility": 32,
+        "status": "recovered",
+        "x": 309.9814270031109,
+        "y": 153.69095309912726,
+        "contentId": "multi-222",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 17,
+        "label": "SignalSurge",
+        "followers": 6778,
+        "credibility": 34,
+        "status": "flagged",
+        "x": 327.6615475873568,
+        "y": 102.27793156107617,
+        "contentId": "multi-273",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 18,
+        "label": "FactCheck_AI",
+        "followers": 7145,
+        "credibility": 84,
+        "status": "susceptible",
+        "x": 395.99999999999994,
+        "y": 59.36903965276238,
+        "contentId": "solo-83"
+      },
+      {
+        "id": 19,
+        "label": "NewsBot_42",
+        "followers": 7667,
+        "credibility": 36,
+        "status": "susceptible",
+        "x": 478.2347102484033,
+        "y": 24.416391282942186,
+        "contentId": "multi-274"
+      },
+      {
+        "id": 20,
+        "label": "SirenThread",
+        "followers": 8004,
+        "credibility": 87,
+        "status": "susceptible",
+        "x": 495.72568474686767,
+        "y": 153.6623520442419,
+        "contentId": "solo-88"
+      },
+      {
+        "id": 21,
+        "label": "Echo_Chamber",
+        "followers": 8254,
+        "credibility": 87,
+        "status": "susceptible",
+        "x": 570.0977509046334,
+        "y": 153.90224909536656,
+        "contentId": "solo-25"
+      },
+      {
+        "id": 22,
+        "label": "FactWave",
+        "followers": 8482,
+        "credibility": 87,
+        "status": "susceptible",
+        "x": 603.6881675179158,
+        "y": 177.7403276149452,
+        "contentId": "multi-77"
+      },
+      {
+        "id": 23,
+        "label": "ShadowLedger",
+        "followers": 8864,
+        "credibility": 93,
+        "status": "susceptible",
+        "x": 675.2320784695415,
+        "y": 222.19922795968932,
+        "contentId": "solo-100"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 1,
+        "target": 9
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 10
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 7,
+        "target": 15
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 22
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 13,
+        "target": 21
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 23
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 1
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 0
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 17,
+        "target": 2
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 22
+      },
+      {
+        "source": 18,
+        "target": 1
+      },
+      {
+        "source": 18,
+        "target": 4
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 23
+      },
+      {
+        "source": 19,
+        "target": 3
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 0
+      },
+      {
+        "source": 20,
+        "target": 5
+      },
+      {
+        "source": 21,
+        "target": 22
+      },
+      {
+        "source": 21,
+        "target": 1
+      },
+      {
+        "source": 21,
+        "target": 7
+      },
+      {
+        "source": 22,
+        "target": 23
+      },
+      {
+        "source": 22,
+        "target": 2
+      },
+      {
+        "source": 22,
+        "target": 6
+      },
+      {
+        "source": 23,
+        "target": 0
+      },
+      {
+        "source": 23,
+        "target": 3
+      },
+      {
+        "source": 23,
+        "target": 8
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "09:17 AM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "09:17 AM"
+      },
+      {
+        "type": "action",
+        "message": "Deep forensic scan completed on SignalSurge.",
+        "time": "09:17 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against SignalSurge.",
+        "time": "09:17 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against InfoWars_X.",
+        "time": "09:17 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against PolitiCheck.",
+        "time": "09:18 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around CryptoGuru.",
+        "time": "09:18 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against CivicRadar.",
+        "time": "09:18 AM"
+      }
+    ]
+  },
+  {
+    "sessionId": "848e5bc6-a29d-4360-982c-e83dae19d287",
+    "createdAt": "2026-04-16T03:48:37.196Z",
+    "timeLeft": 135,
+    "actionPoints": 22,
+    "maxActionPoints": 22,
+    "tick": 3,
+    "panicLevel": 3,
+    "panicPenalty": 0,
+    "chatbotQuestionsUsed": 0,
+    "chatbotQuestionLimit": 5,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "Conspiracy_K",
+        "followers": 906,
+        "credibility": 78,
+        "status": "susceptible",
+        "x": 602.879387935701,
+        "y": 297,
+        "contentId": "solo-42"
+      },
+      {
+        "id": 1,
+        "label": "SignalSurge",
+        "followers": 1540,
+        "credibility": 93,
+        "status": "susceptible",
+        "x": 618.3812895024496,
+        "y": 366.7097851458392,
+        "contentId": "multi-54"
+      },
+      {
+        "id": 2,
+        "label": "ChannelZero",
+        "followers": 1723,
+        "credibility": 50,
+        "status": "recovered",
+        "x": 607.5665796937498,
+        "y": 450.68026288781016,
+        "contentId": "multi-226",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 3,
+        "label": "TruthSeeker",
+        "followers": 2230,
+        "credibility": 89,
+        "status": "susceptible",
+        "x": 584.5333797270391,
+        "y": 543.7331803995471,
+        "contentId": "multi-44"
+      },
+      {
+        "id": 4,
+        "label": "NewsBot_42",
+        "followers": 2293,
+        "credibility": 84,
+        "status": "susceptible",
+        "x": 482.7121724048036,
+        "y": 481.1143942078635,
+        "contentId": "solo-86"
+      },
+      {
+        "id": 5,
+        "label": "FactWave",
+        "followers": 2794,
+        "credibility": 82,
+        "status": "susceptible",
+        "x": 446.291033687947,
+        "y": 530.6787669146079,
+        "contentId": "solo-30"
+      },
+      {
+        "id": 6,
+        "label": "Troll_Farm_7",
+        "followers": 3297,
+        "credibility": 18,
+        "status": "recovered",
+        "x": 362.10889258229986,
+        "y": 563.6729824664635,
+        "contentId": "solo-126",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 7,
+        "label": "DeepFake_Dan",
+        "followers": 3349,
+        "credibility": 39,
+        "status": "recovered",
+        "x": 283.3717843461716,
+        "y": 552.0007805823968,
+        "contentId": "multi-229",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 8,
+        "label": "RealNews_Hub",
+        "followers": 3713,
+        "credibility": 29,
+        "status": "susceptible",
+        "x": 282.06893162929344,
+        "y": 445.64032328731,
+        "contentId": "multi-222"
+      },
+      {
+        "id": 9,
+        "label": "MediaWatch",
+        "followers": 4441,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 214.74824079648852,
+        "y": 438.982059523386,
+        "contentId": "multi-57"
+      },
+      {
+        "id": 10,
+        "label": "MythMachine",
+        "followers": 4384,
+        "credibility": 96,
+        "status": "susceptible",
+        "x": 146.3237006644448,
+        "y": 394.2561906931605,
+        "contentId": "multi-116"
+      },
+      {
+        "id": 11,
+        "label": "ViralVince",
+        "followers": 4823,
+        "credibility": 91,
+        "status": "susceptible",
+        "x": 112.97103312968909,
+        "y": 317.00000000000006,
+        "contentId": "multi-46"
+      },
+      {
+        "id": 12,
+        "label": "Meme_Lord",
+        "followers": 5109,
+        "credibility": 98,
+        "status": "susceptible",
+        "x": 201.30656877261768,
+        "y": 250.64999499876546,
+        "contentId": "solo-54"
+      },
+      {
+        "id": 13,
+        "label": "HyperFeed",
+        "followers": 5481,
+        "credibility": 87,
+        "status": "susceptible",
+        "x": 197.62127485437702,
+        "y": 189.6510224658528,
+        "contentId": "solo-43"
+      },
+      {
+        "id": 14,
+        "label": "DataDiva",
+        "followers": 5989,
+        "credibility": 30,
+        "status": "susceptible",
+        "x": 226.1124351007109,
+        "y": 116.40148309427522,
+        "contentId": "multi-273"
+      },
+      {
+        "id": 15,
+        "label": "FactCheck_AI",
+        "followers": 6309,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 273.853670668453,
+        "y": 58.48531958851339,
+        "contentId": "solo-40"
+      },
+      {
+        "id": 16,
+        "label": "TrustAnchor",
+        "followers": 6654,
+        "credibility": 38,
+        "status": "recovered",
+        "x": 386.9660631074719,
+        "y": 122.01968611821044,
+        "contentId": "multi-311",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 17,
+        "label": "SirenThread",
+        "followers": 7171,
+        "credibility": 93,
+        "status": "susceptible",
+        "x": 429.1935463210227,
+        "y": 113.99927261566754,
+        "contentId": "solo-67"
+      },
+      {
+        "id": 18,
+        "label": "Verified_Sue",
+        "followers": 7386,
+        "credibility": 87,
+        "status": "susceptible",
+        "x": 491.1077749782528,
+        "y": 93.03577116516695,
+        "contentId": "solo-5"
+      },
+      {
+        "id": 19,
+        "label": "CryptoGuru",
+        "followers": 7792,
+        "credibility": 92,
+        "status": "susceptible",
+        "x": 583.5930685953094,
+        "y": 113.04667322077427,
+        "contentId": "multi-50"
+      },
+      {
+        "id": 20,
+        "label": "Echo_Chamber",
+        "followers": 7908,
+        "credibility": 18,
+        "status": "recovered",
+        "x": 565.0798354540981,
+        "y": 209.2669706591135,
+        "contentId": "solo-115",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 21,
+        "label": "CivicRadar",
+        "followers": 8314,
+        "credibility": 96,
+        "status": "susceptible",
+        "x": 587.2501784152442,
+        "y": 256.0267364298961,
+        "contentId": "solo-11"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 1,
+        "target": 9
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 5,
+        "target": 14
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 11,
+        "target": 20
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 0
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 1
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 0
+      },
+      {
+        "source": 15,
+        "target": 3
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 2
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 0
+      },
+      {
+        "source": 18,
+        "target": 3
+      },
+      {
+        "source": 18,
+        "target": 6
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 1
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 2
+      },
+      {
+        "source": 20,
+        "target": 7
+      },
+      {
+        "source": 21,
+        "target": 0
+      },
+      {
+        "source": 21,
+        "target": 3
+      },
+      {
+        "source": 21,
+        "target": 6
+      },
+      {
+        "source": 21,
+        "target": 9
+      }
+    ],
+    "log": [
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "09:18 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around TrustAnchor.",
+        "time": "09:18 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against Echo_Chamber.",
+        "time": "09:18 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against DeepFake_Dan.",
+        "time": "09:19 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around Troll_Farm_7.",
+        "time": "09:19 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around ChannelZero.",
+        "time": "09:19 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "09:19 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "09:19 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "09:20 AM"
+      }
+    ]
+  },
+  {
+    "sessionId": "08a8b2bd-7c1c-4ae3-b5fb-b25e04c2e403",
+    "createdAt": "2026-04-16T04:40:35.463Z",
+    "timeLeft": 135,
+    "actionPoints": 23,
+    "maxActionPoints": 23,
+    "tick": 3,
+    "panicLevel": 24,
+    "panicPenalty": 12,
+    "chatbotQuestionsUsed": 0,
+    "chatbotQuestionLimit": 5,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "EchoBloom",
+        "followers": 1328,
+        "credibility": 22,
+        "status": "recovered",
+        "x": 592.5074794368135,
+        "y": 317,
+        "contentId": "solo-103",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 1,
+        "label": "MythMachine",
+        "followers": 1703,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 629.4133020118093,
+        "y": 370.9163504073496,
+        "contentId": "solo-9"
+      },
+      {
+        "id": 2,
+        "label": "TrustAnchor",
+        "followers": 1871,
+        "credibility": 38,
+        "status": "infected",
+        "x": 635.1471653770233,
+        "y": 445.2663434605631,
+        "contentId": "multi-264"
+      },
+      {
+        "id": 3,
+        "label": "DeepFake_Dan",
+        "followers": 2252,
+        "credibility": 87,
+        "status": "susceptible",
+        "x": 601.4015228775121,
+        "y": 498.5165581567219,
+        "contentId": "solo-85"
+      },
+      {
+        "id": 4,
+        "label": "TruthSeeker",
+        "followers": 2636,
+        "credibility": 91,
+        "status": "susceptible",
+        "x": 501.1539504852244,
+        "y": 472.19948923487493,
+        "contentId": "multi-43"
+      },
+      {
+        "id": 5,
+        "label": "ShadowLedger",
+        "followers": 2633,
+        "credibility": 95,
+        "status": "susceptible",
+        "x": 430.6107418258003,
+        "y": 543.49093997765,
+        "contentId": "solo-20"
+      },
+      {
+        "id": 6,
+        "label": "PolitiCheck",
+        "followers": 3046,
+        "credibility": 36,
+        "status": "recovered",
+        "x": 385.4271348518119,
+        "y": 580.9061948301558,
+        "contentId": "multi-279",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 7,
+        "label": "SignalSurge",
+        "followers": 3720,
+        "credibility": 86,
+        "status": "susceptible",
+        "x": 319.7010858973468,
+        "y": 570.3317148247336,
+        "contentId": "solo-59"
+      },
+      {
+        "id": 8,
+        "label": "FactWave",
+        "followers": 3970,
+        "credibility": 34,
+        "status": "infected",
+        "x": 288.09916752683205,
+        "y": 466.44397739816634,
+        "contentId": "multi-303"
+      },
+      {
+        "id": 9,
+        "label": "ClickBait99",
+        "followers": 4103,
+        "credibility": 41,
+        "status": "recovered",
+        "x": 237.34540960320587,
+        "y": 441.6513675716518,
+        "contentId": "multi-233",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 10,
+        "label": "Conspiracy_K",
+        "followers": 4555,
+        "credibility": 81,
+        "status": "susceptible",
+        "x": 182.9713997259114,
+        "y": 417.78424357939,
+        "contentId": "multi-27"
+      },
+      {
+        "id": 11,
+        "label": "BotNetwork",
+        "followers": 4798,
+        "credibility": 95,
+        "status": "susceptible",
+        "x": 102.22638588290113,
+        "y": 339.86633866283637,
+        "contentId": "solo-23"
+      },
+      {
+        "id": 12,
+        "label": "NewsBot_42",
+        "followers": 5315,
+        "credibility": 35,
+        "status": "infected",
+        "x": 220.81648237505192,
+        "y": 290.5849835043901,
+        "contentId": "solo-119"
+      },
+      {
+        "id": 13,
+        "label": "SirenThread",
+        "followers": 5572,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 183.4968254567477,
+        "y": 223.34354250175573,
+        "contentId": "solo-6"
+      },
+      {
+        "id": 14,
+        "label": "CryptoGuru",
+        "followers": 6141,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 199.77709879986526,
+        "y": 168.8015100768028,
+        "contentId": "solo-69"
+      },
+      {
+        "id": 15,
+        "label": "Echo_Chamber",
+        "followers": 6208,
+        "credibility": 84,
+        "status": "susceptible",
+        "x": 243.91006722771266,
+        "y": 77.62091149674197,
+        "contentId": "multi-29"
+      },
+      {
+        "id": 16,
+        "label": "ViralVince",
+        "followers": 6436,
+        "credibility": 91,
+        "status": "susceptible",
+        "x": 345.69236461081994,
+        "y": 138.86938609892755,
+        "contentId": "multi-44"
+      },
+      {
+        "id": 17,
+        "label": "Verified_Sue",
+        "followers": 7086,
+        "credibility": 86,
+        "status": "susceptible",
+        "x": 374.51513715315906,
+        "y": 91.61931831253429,
+        "contentId": "solo-8"
+      },
+      {
+        "id": 18,
+        "label": "HyperFeed",
+        "followers": 7327,
+        "credibility": 19,
+        "status": "infected",
+        "x": 468.32666843102385,
+        "y": 61.190246856992275,
+        "contentId": "solo-136"
+      },
+      {
+        "id": 19,
+        "label": "FactCheck_AI",
+        "followers": 7537,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 518.9830506232652,
+        "y": 61.284274793058245,
+        "contentId": "solo-46"
+      },
+      {
+        "id": 20,
+        "label": "Meme_Lord",
+        "followers": 7911,
+        "credibility": 93,
+        "status": "recovered",
+        "x": 535.0197662689857,
+        "y": 191.27799358963298,
+        "contentId": "solo-92",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 21,
+        "label": "CivicRadar",
+        "followers": 8314,
+        "credibility": 91,
+        "status": "susceptible",
+        "x": 569.5868910149629,
+        "y": 183.79079230689382,
+        "contentId": "solo-45"
+      },
+      {
+        "id": 22,
+        "label": "RealNews_Hub",
+        "followers": 8662,
+        "credibility": 90,
+        "status": "recovered",
+        "x": 633.7432051809944,
+        "y": 258.10729100011883,
+        "contentId": "solo-43",
+        "resolvedByAction": "fact-check"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 1,
+        "target": 9
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 5,
+        "target": 14
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 7,
+        "target": 15
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 16
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 22
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 13,
+        "target": 21
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 0
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 22
+      },
+      {
+        "source": 15,
+        "target": 2
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 1
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 22
+      },
+      {
+        "source": 18,
+        "target": 2
+      },
+      {
+        "source": 18,
+        "target": 5
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 0
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 1
+      },
+      {
+        "source": 20,
+        "target": 6
+      },
+      {
+        "source": 21,
+        "target": 22
+      },
+      {
+        "source": 21,
+        "target": 2
+      },
+      {
+        "source": 21,
+        "target": 5
+      },
+      {
+        "source": 21,
+        "target": 8
+      },
+      {
+        "source": 22,
+        "target": 0
+      },
+      {
+        "source": 22,
+        "target": 3
+      },
+      {
+        "source": 22,
+        "target": 7
+      }
+    ],
+    "log": [
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "10:10 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "10:10 AM"
+      },
+      {
+        "type": "action",
+        "message": "False alarm: Meme_Lord was fact-checked even though the article leans credible. Public trust dipped.",
+        "time": "10:11 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around EchoBloom.",
+        "time": "10:11 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "10:11 AM"
+      },
+      {
+        "type": "action",
+        "message": "False alarm: RealNews_Hub was fact-checked even though the article leans credible. Public trust dipped.",
+        "time": "10:11 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against ClickBait99.",
+        "time": "10:12 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "10:12 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around PolitiCheck.",
+        "time": "10:12 AM"
+      }
+    ]
+  },
+  {
+    "sessionId": "15a562fe-25fa-43f8-a0ef-fbaa6695019f",
+    "createdAt": "2026-04-16T04:46:50.789Z",
+    "timeLeft": 150,
+    "actionPoints": 23,
+    "maxActionPoints": 23,
+    "tick": 2,
+    "panicLevel": 3,
+    "panicPenalty": 0,
+    "chatbotQuestionsUsed": 0,
+    "chatbotQuestionLimit": 5,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "Verified_Sue",
+        "followers": 1169,
+        "credibility": 91,
+        "status": "susceptible",
+        "x": 569.48717243357,
+        "y": 314,
+        "contentId": "multi-26"
+      },
+      {
+        "id": 1,
+        "label": "PolitiCheck",
+        "followers": 1600,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 605.3982745376193,
+        "y": 375.4725136264917,
+        "contentId": "solo-64"
+      },
+      {
+        "id": 2,
+        "label": "ShadowLedger",
+        "followers": 2017,
+        "credibility": 95,
+        "status": "susceptible",
+        "x": 612.2807671740767,
+        "y": 455.9151346279838,
+        "contentId": "solo-66"
+      },
+      {
+        "id": 3,
+        "label": "SirenThread",
+        "followers": 1945,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 601.2087490727189,
+        "y": 496.31014781210126,
+        "contentId": "solo-60"
+      },
+      {
+        "id": 4,
+        "label": "Conspiracy_K",
+        "followers": 2351,
+        "credibility": 28,
+        "status": "recovered",
+        "x": 484.7507701085696,
+        "y": 488.1410360052558,
+        "contentId": "multi-240",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 5,
+        "label": "CivicRadar",
+        "followers": 2982,
+        "credibility": 94,
+        "status": "susceptible",
+        "x": 429.36761508985467,
+        "y": 533.5086856914522,
+        "contentId": "solo-21"
+      },
+      {
+        "id": 6,
+        "label": "NewsBot_42",
+        "followers": 3050,
+        "credibility": 91,
+        "status": "susceptible",
+        "x": 394.3682578142325,
+        "y": 565.7669466517762,
+        "contentId": "solo-17"
+      },
+      {
+        "id": 7,
+        "label": "CryptoGuru",
+        "followers": 3687,
+        "credibility": 93,
+        "status": "susceptible",
+        "x": 309.9551000474419,
+        "y": 568.8032571746593,
+        "contentId": "multi-59"
+      },
+      {
+        "id": 8,
+        "label": "Echo_Chamber",
+        "followers": 3872,
+        "credibility": 88,
+        "status": "susceptible",
+        "x": 297.70204354767435,
+        "y": 460.5898966547142,
+        "contentId": "multi-67"
+      },
+      {
+        "id": 9,
+        "label": "DataDiva",
+        "followers": 4201,
+        "credibility": 37,
+        "status": "recovered",
+        "x": 222.68169736321963,
+        "y": 433.86929443591066,
+        "contentId": "solo-119",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 10,
+        "label": "HyperFeed",
+        "followers": 4487,
+        "credibility": 31,
+        "status": "recovered",
+        "x": 156.04275467755352,
+        "y": 401.4501658613871,
+        "contentId": "solo-102",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 11,
+        "label": "RealNews_Hub",
+        "followers": 4755,
+        "credibility": 36,
+        "status": "susceptible",
+        "x": 137.6281675623622,
+        "y": 356.02430616957963,
+        "contentId": "multi-233"
+      },
+      {
+        "id": 12,
+        "label": "FactWave",
+        "followers": 5248,
+        "credibility": 21,
+        "status": "recovered",
+        "x": 220.13190925537114,
+        "y": 281.4530189492715,
+        "contentId": "solo-118",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 13,
+        "label": "Meme_Lord",
+        "followers": 5712,
+        "credibility": 85,
+        "status": "susceptible",
+        "x": 189.74116224768161,
+        "y": 208.1060599846024,
+        "contentId": "solo-26"
+      },
+      {
+        "id": 14,
+        "label": "PulsePatrol",
+        "followers": 5940,
+        "credibility": 82,
+        "status": "susceptible",
+        "x": 188.39094375852585,
+        "y": 143.97886689852388,
+        "contentId": "multi-49"
+      },
+      {
+        "id": 15,
+        "label": "ViralVince",
+        "followers": 6452,
+        "credibility": 50,
+        "status": "recovered",
+        "x": 228.4507670496492,
+        "y": 70.05349063164883,
+        "contentId": "multi-361",
+        "resolvedByAction": "fact-check"
+      },
+      {
+        "id": 16,
+        "label": "NarrativeNexus",
+        "followers": 6830,
+        "credibility": 95,
+        "status": "susceptible",
+        "x": 327.151596421317,
+        "y": 122.78900123596281,
+        "contentId": "solo-51"
+      },
+      {
+        "id": 17,
+        "label": "EchoBloom",
+        "followers": 6953,
+        "credibility": 19,
+        "status": "susceptible",
+        "x": 387.8192168965464,
+        "y": 72.06480680515088,
+        "contentId": "solo-130"
+      },
+      {
+        "id": 18,
+        "label": "DeepFake_Dan",
+        "followers": 7425,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 452.95456424787096,
+        "y": 63.793174694862415,
+        "contentId": "multi-75"
+      },
+      {
+        "id": 19,
+        "label": "BotNetwork",
+        "followers": 7458,
+        "credibility": 92,
+        "status": "susceptible",
+        "x": 541.2853471700437,
+        "y": 62.35043091116458,
+        "contentId": "solo-55"
+      },
+      {
+        "id": 20,
+        "label": "MythMachine",
+        "followers": 7956,
+        "credibility": 82,
+        "status": "susceptible",
+        "x": 512.5218413181952,
+        "y": 186.315971166017,
+        "contentId": "multi-42"
+      },
+      {
+        "id": 21,
+        "label": "SignalSurge",
+        "followers": 8112,
+        "credibility": 80,
+        "status": "susceptible",
+        "x": 598.07571791023,
+        "y": 198.3718280174188,
+        "contentId": "solo-13"
+      },
+      {
+        "id": 22,
+        "label": "InfoWars_X",
+        "followers": 8798,
+        "credibility": 91,
+        "status": "susceptible",
+        "x": 632.9342357343153,
+        "y": 247.45470104909663,
+        "contentId": "solo-20"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 5,
+        "target": 14
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 16
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 11,
+        "target": 20
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 22
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 0
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 2
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 1
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 17,
+        "target": 3
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 22
+      },
+      {
+        "source": 18,
+        "target": 2
+      },
+      {
+        "source": 18,
+        "target": 5
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 0
+      },
+      {
+        "source": 19,
+        "target": 4
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 1
+      },
+      {
+        "source": 20,
+        "target": 6
+      },
+      {
+        "source": 21,
+        "target": 22
+      },
+      {
+        "source": 21,
+        "target": 2
+      },
+      {
+        "source": 21,
+        "target": 8
+      },
+      {
+        "source": 22,
+        "target": 0
+      },
+      {
+        "source": 22,
+        "target": 3
+      },
+      {
+        "source": 22,
+        "target": 7
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "10:16 AM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "10:16 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around FactWave.",
+        "time": "10:17 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against ViralVince.",
+        "time": "10:17 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "10:17 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around HyperFeed.",
+        "time": "10:17 AM"
+      },
+      {
+        "type": "action",
+        "message": "Fact-check deployed against Conspiracy_K.",
+        "time": "10:17 AM"
+      },
+      {
+        "type": "system",
+        "message": "Network propagation tick executed.",
+        "time": "10:18 AM"
+      },
+      {
+        "type": "action",
+        "message": "Quarantine wall deployed around DataDiva.",
+        "time": "10:18 AM"
+      }
+    ]
+  },
+  {
+    "sessionId": "9daed1f0-5b93-49d5-8f4b-0de63886e2dc",
+    "createdAt": "2026-04-16T04:48:34.497Z",
+    "timeLeft": 180,
+    "actionPoints": 24,
+    "maxActionPoints": 24,
+    "tick": 0,
+    "panicLevel": 26,
+    "panicPenalty": 16,
+    "chatbotQuestionsUsed": 0,
+    "chatbotQuestionLimit": 5,
+    "nodes": [
+      {
+        "id": 0,
+        "label": "Verified_Sue",
+        "followers": 1334,
+        "credibility": 56,
+        "status": "susceptible",
+        "x": 567.1468571251324,
+        "y": 323,
+        "contentId": "multi-285"
+      },
+      {
+        "id": 1,
+        "label": "CivicRadar",
+        "followers": 1247,
+        "credibility": 18,
+        "status": "infected",
+        "x": 627.5497691097311,
+        "y": 360.56023413896077,
+        "contentId": "solo-116"
+      },
+      {
+        "id": 2,
+        "label": "DeepFake_Dan",
+        "followers": 2030,
+        "credibility": 48,
+        "status": "infected",
+        "x": 619.0484140945023,
+        "y": 441.46766084302146,
+        "contentId": "multi-235"
+      },
+      {
+        "id": 3,
+        "label": "Troll_Farm_7",
+        "followers": 2002,
+        "credibility": 92,
+        "status": "susceptible",
+        "x": 614.8424601408004,
+        "y": 508.8424601408003,
+        "contentId": "multi-52"
+      },
+      {
+        "id": 4,
+        "label": "PolitiCheck",
+        "followers": 2385,
+        "credibility": 52,
+        "status": "infected",
+        "x": 509.8596205322016,
+        "y": 476.96193638632127,
+        "contentId": "multi-228"
+      },
+      {
+        "id": 5,
+        "label": "FactCheck_AI",
+        "followers": 2603,
+        "credibility": 82,
+        "status": "susceptible",
+        "x": 447.96978687174465,
+        "y": 505.8820882941525,
+        "contentId": "multi-42"
+      },
+      {
+        "id": 6,
+        "label": "NarrativeNexus",
+        "followers": 3213,
+        "credibility": 36,
+        "status": "infected",
+        "x": 398,
+        "y": 547.5769367958219,
+        "contentId": "multi-324"
+      },
+      {
+        "id": 7,
+        "label": "FactWave",
+        "followers": 3292,
+        "credibility": 82,
+        "status": "susceptible",
+        "x": 324.0859974679885,
+        "y": 568.1187620326727,
+        "contentId": "solo-76"
+      },
+      {
+        "id": 8,
+        "label": "SirenThread",
+        "followers": 3826,
+        "credibility": 32,
+        "status": "susceptible",
+        "x": 307.5257091680116,
+        "y": 458.3663225376115,
+        "contentId": "solo-111"
+      },
+      {
+        "id": 9,
+        "label": "RealNews_Hub",
+        "followers": 4329,
+        "credibility": 93,
+        "status": "susceptible",
+        "x": 226.76929339667166,
+        "y": 456.2307066033284,
+        "contentId": "multi-87"
+      },
+      {
+        "id": 10,
+        "label": "Meme_Lord",
+        "followers": 4509,
+        "credibility": 85,
+        "status": "susceptible",
+        "x": 175.36455684983045,
+        "y": 427.38393249552274,
+        "contentId": "solo-47"
+      },
+      {
+        "id": 11,
+        "label": "CryptoGuru",
+        "followers": 4726,
+        "credibility": 84,
+        "status": "susceptible",
+        "x": 136.2638428439791,
+        "y": 389.81148386429254,
+        "contentId": "multi-38"
+      },
+      {
+        "id": 12,
+        "label": "Conspiracy_K",
+        "followers": 5088,
+        "credibility": 92,
+        "status": "susceptible",
+        "x": 212.10213694608538,
+        "y": 326,
+        "contentId": "multi-83"
+      },
+      {
+        "id": 13,
+        "label": "MythMachine",
+        "followers": 5531,
+        "credibility": 90,
+        "status": "susceptible",
+        "x": 190.78200579828209,
+        "y": 256.4761057964527,
+        "contentId": "solo-1"
+      },
+      {
+        "id": 14,
+        "label": "DataDiva",
+        "followers": 5795,
+        "credibility": 93,
+        "status": "recovered",
+        "x": 178.961418676712,
+        "y": 183.11536637927554,
+        "contentId": "solo-62",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 15,
+        "label": "TrustAnchor",
+        "followers": 6171,
+        "credibility": 83,
+        "status": "susceptible",
+        "x": 217.1726440329953,
+        "y": 101.17264403299535,
+        "contentId": "multi-90"
+      },
+      {
+        "id": 16,
+        "label": "ViralVince",
+        "followers": 6548,
+        "credibility": 86,
+        "status": "susceptible",
+        "x": 296.16636965567005,
+        "y": 161.6715372076906,
+        "contentId": "multi-35"
+      },
+      {
+        "id": 17,
+        "label": "ShadowLedger",
+        "followers": 6878,
+        "credibility": 96,
+        "status": "susceptible",
+        "x": 352.844413469016,
+        "y": 92.15654874510591,
+        "contentId": "multi-51"
+      },
+      {
+        "id": 18,
+        "label": "InfoWars_X",
+        "followers": 7503,
+        "credibility": 86,
+        "status": "susceptible",
+        "x": 385.99999999999994,
+        "y": 41.896694401317745,
+        "contentId": "solo-48"
+      },
+      {
+        "id": 19,
+        "label": "MediaWatch",
+        "followers": 7442,
+        "credibility": 41,
+        "status": "infected",
+        "x": 460.2065822372484,
+        "y": 24.057264834550153,
+        "contentId": "multi-264"
+      },
+      {
+        "id": 20,
+        "label": "TruthSeeker",
+        "followers": 7729,
+        "credibility": 96,
+        "status": "recovered",
+        "x": 489.37820777770173,
+        "y": 145.80009819415955,
+        "contentId": "multi-37",
+        "resolvedByAction": "quarantine"
+      },
+      {
+        "id": 21,
+        "label": "BotNetwork",
+        "followers": 8203,
+        "credibility": 85,
+        "status": "susceptible",
+        "x": 546.3726580760879,
+        "y": 145.62734192391207,
+        "contentId": "solo-63"
+      },
+      {
+        "id": 22,
+        "label": "EchoBloom",
+        "followers": 8663,
+        "credibility": 92,
+        "status": "susceptible",
+        "x": 621.7899018143044,
+        "y": 184.30039344505644,
+        "contentId": "solo-5"
+      },
+      {
+        "id": 23,
+        "label": "ChannelZero",
+        "followers": 9202,
+        "credibility": 93,
+        "status": "susceptible",
+        "x": 653.3188847660537,
+        "y": 228.37212070534758,
+        "contentId": "multi-55"
+      }
+    ],
+    "edges": [
+      {
+        "source": 0,
+        "target": 1
+      },
+      {
+        "source": 0,
+        "target": 4
+      },
+      {
+        "source": 0,
+        "target": 7
+      },
+      {
+        "source": 0,
+        "target": 10
+      },
+      {
+        "source": 1,
+        "target": 2
+      },
+      {
+        "source": 1,
+        "target": 5
+      },
+      {
+        "source": 2,
+        "target": 3
+      },
+      {
+        "source": 2,
+        "target": 6
+      },
+      {
+        "source": 2,
+        "target": 11
+      },
+      {
+        "source": 3,
+        "target": 4
+      },
+      {
+        "source": 3,
+        "target": 7
+      },
+      {
+        "source": 3,
+        "target": 13
+      },
+      {
+        "source": 4,
+        "target": 5
+      },
+      {
+        "source": 4,
+        "target": 8
+      },
+      {
+        "source": 4,
+        "target": 12
+      },
+      {
+        "source": 5,
+        "target": 6
+      },
+      {
+        "source": 5,
+        "target": 9
+      },
+      {
+        "source": 6,
+        "target": 7
+      },
+      {
+        "source": 6,
+        "target": 10
+      },
+      {
+        "source": 6,
+        "target": 13
+      },
+      {
+        "source": 6,
+        "target": 16
+      },
+      {
+        "source": 7,
+        "target": 8
+      },
+      {
+        "source": 7,
+        "target": 11
+      },
+      {
+        "source": 7,
+        "target": 15
+      },
+      {
+        "source": 8,
+        "target": 9
+      },
+      {
+        "source": 8,
+        "target": 12
+      },
+      {
+        "source": 8,
+        "target": 17
+      },
+      {
+        "source": 9,
+        "target": 10
+      },
+      {
+        "source": 9,
+        "target": 13
+      },
+      {
+        "source": 9,
+        "target": 19
+      },
+      {
+        "source": 10,
+        "target": 11
+      },
+      {
+        "source": 10,
+        "target": 14
+      },
+      {
+        "source": 10,
+        "target": 18
+      },
+      {
+        "source": 11,
+        "target": 12
+      },
+      {
+        "source": 11,
+        "target": 15
+      },
+      {
+        "source": 11,
+        "target": 20
+      },
+      {
+        "source": 12,
+        "target": 13
+      },
+      {
+        "source": 12,
+        "target": 16
+      },
+      {
+        "source": 12,
+        "target": 19
+      },
+      {
+        "source": 12,
+        "target": 22
+      },
+      {
+        "source": 13,
+        "target": 14
+      },
+      {
+        "source": 13,
+        "target": 17
+      },
+      {
+        "source": 13,
+        "target": 21
+      },
+      {
+        "source": 14,
+        "target": 15
+      },
+      {
+        "source": 14,
+        "target": 18
+      },
+      {
+        "source": 14,
+        "target": 23
+      },
+      {
+        "source": 15,
+        "target": 16
+      },
+      {
+        "source": 15,
+        "target": 19
+      },
+      {
+        "source": 15,
+        "target": 22
+      },
+      {
+        "source": 15,
+        "target": 1
+      },
+      {
+        "source": 16,
+        "target": 17
+      },
+      {
+        "source": 16,
+        "target": 20
+      },
+      {
+        "source": 16,
+        "target": 0
+      },
+      {
+        "source": 17,
+        "target": 18
+      },
+      {
+        "source": 17,
+        "target": 21
+      },
+      {
+        "source": 18,
+        "target": 19
+      },
+      {
+        "source": 18,
+        "target": 22
+      },
+      {
+        "source": 18,
+        "target": 1
+      },
+      {
+        "source": 18,
+        "target": 4
+      },
+      {
+        "source": 19,
+        "target": 20
+      },
+      {
+        "source": 19,
+        "target": 23
+      },
+      {
+        "source": 20,
+        "target": 21
+      },
+      {
+        "source": 20,
+        "target": 0
+      },
+      {
+        "source": 20,
+        "target": 5
+      },
+      {
+        "source": 21,
+        "target": 22
+      },
+      {
+        "source": 21,
+        "target": 1
+      },
+      {
+        "source": 21,
+        "target": 4
+      },
+      {
+        "source": 21,
+        "target": 7
+      },
+      {
+        "source": 22,
+        "target": 23
+      },
+      {
+        "source": 22,
+        "target": 2
+      },
+      {
+        "source": 22,
+        "target": 6
+      },
+      {
+        "source": 23,
+        "target": 0
+      },
+      {
+        "source": 23,
+        "target": 3
+      }
+    ],
+    "log": [
+      {
+        "type": "system",
+        "message": "Patient Zero detected in two active clusters.",
+        "time": "10:18 AM"
+      },
+      {
+        "type": "intel",
+        "message": "AI forensics suite online. Investigate suspicious nodes before severing reach.",
+        "time": "10:18 AM"
+      },
+      {
+        "type": "action",
+        "message": "Overreach warning: TruthSeeker was quarantined despite carrying a credible report.",
+        "time": "10:18 AM"
+      },
+      {
+        "type": "action",
+        "message": "Overreach warning: DataDiva was quarantined despite carrying a credible report.",
+        "time": "10:18 AM"
+      }
+    ]
+  }
+]

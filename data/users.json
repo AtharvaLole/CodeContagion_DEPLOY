@@ -1,0 +1,36 @@
+[
+  {
+    "id": "b4bbdb1a-0d47-4e67-923e-f545be98d9f6",
+    "email": "phase6-host-1776200828352@codecontagion.dev",
+    "handle": "Host8352",
+    "passwordHash": "$2b$10$a1wJq4EQyjLQkweqUa0et.3bcKPjWzQVE4gVgYEnqf35BZcYUANZa",
+    "avatar": "🛰️",
+    "createdAt": "2026-04-14T21:07:08.536Z",
+    "stats": {
+      "elo": 1200,
+      "rank": 999,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  },
+  {
+    "id": "e7f862fd-d559-4c6b-8332-a5a1c2732842",
+    "email": "phase6-ally-1776200828352@codecontagion.dev",
+    "handle": "Ally8352",
+    "passwordHash": "$2b$10$mdgK6Yd9LD5nIE2/KIl0wOvxhwDifRNbiYZWfsMxIe.4QPHWlB8iS",
+    "avatar": "👾",
+    "createdAt": "2026-04-14T21:07:08.702Z",
+    "stats": {
+      "elo": 1200,
+      "rank": 999,
+      "winRate": 0,
+      "totalMatches": 0,
+      "wins": 0,
+      "losses": 0,
+      "streak": 0
+    }
+  }
+]
